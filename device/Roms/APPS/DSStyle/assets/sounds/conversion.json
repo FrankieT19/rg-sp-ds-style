@@ -1,0 +1,51 @@
+[
+  {
+    "sound": "accept",
+    "source_rate": 65456,
+    "source_sha256": "ffbd593a25e3cf1ee5c1fe04a02e673d3fe12b8b0264f6bee79220af9a98fec9",
+    "source_seconds": 0.2865283549254461,
+    "output_seconds": 0.28652083333333334
+  },
+  {
+    "sound": "back",
+    "source_rate": 32728,
+    "source_sha256": "645165847ef6ea0dd92922a25b00527ddf8011a3a5e93271535bfe5bb1bb5cfe",
+    "source_seconds": 0.10755316548521145,
+    "output_seconds": 0.1075625
+  },
+  {
+    "sound": "launch",
+    "source_rate": 32728,
+    "source_sha256": "ae0779cb61b176343c8df643d7c229bff9967df17d7c6423f78f3cc223877c7b",
+    "source_seconds": 1.4910779760449768,
+    "output_seconds": 1.4910833333333333
+  },
+  {
+    "sound": "menu",
+    "source_rate": 32728,
+    "source_sha256": "4e8fd6c3b94e51515e20b53f37b45f729564e4f62c43c95cb56ecd2b5f007401",
+    "source_seconds": 0.29332681495966756,
+    "output_seconds": 0.29333333333333333
+  },
+  {
+    "sound": "move",
+    "source_rate": 32728,
+    "source_sha256": "77097663faed80aa51094a1321e95f60261bfd005eca4df58fd178ce9ba41b8f",
+    "source_seconds": 0.05377658274260572,
+    "output_seconds": 0.05377083333333333
+  },
+  {
+    "sound": "startup",
+    "source_rate": 65456,
+    "source_sha256": "e468f9bb5efbf37bcb803d79fb0133152e2d69bdd0bb8a4f8a6626682228bef1",
+    "source_seconds": 2.0161176973845025,
+    "output_seconds": 2.016125
+  },
+  {
+    "sound": "tab",
+    "source_rate": 32728,
+    "source_sha256": "dc959cc722d5ba807fab8b70402c7a7d901e4f1c05b775f9a8a57d57e5487b3c",
+    "source_seconds": 0.10755316548521145,
+    "output_seconds": 0.1075625
+  }
+]

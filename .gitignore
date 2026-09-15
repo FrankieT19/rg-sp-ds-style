@@ -1,0 +1,9 @@
+.build-cache/
+preview/
+dist/
+device/Roms/APPS/DSStyle/bin/
+device/Roms/APPS/DSStyle/state/
+device/Roms/APPS/DSStyle/DISABLED
+__pycache__/
+*.pyc
+test-results*.json

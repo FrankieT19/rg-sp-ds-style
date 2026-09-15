@@ -1,0 +1,120 @@
+DS Style console folder artwork - sources
+
+The hardware images in this pack are existing photographs or illustrations; no replacement hardware imagery was generated.
+System names, logos and trademarks remain the property of their respective owners.
+
+Game Boy Advance
+Hardware: Existing DS Style optional GBA folder artwork
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/gba/images/logo.svg
+
+Game Boy
+Hardware: https://commons.wikimedia.org/wiki/File:Game-Boy-FL.png
+Creator: Transfrom JPEG version and remove white background. Original by Evan-Amos .
+Licence: Public domain
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/gb/images/logo.svg
+
+Game Boy Color
+Hardware: https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Color-FL.png
+Creator: Evan-Amos , modified by Gunnar.offel
+Licence: Public domain
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/gbc/images/logo.svg
+
+Nintendo Entertainment System
+Hardware: https://commons.wikimedia.org/wiki/File:Nintendo-Entertainment-System-NES-Console-FL.jpg
+Creator: Evan-Amos
+Licence: Public domain
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/nes/images/logo.svg
+
+Master System
+Hardware: https://commons.wikimedia.org/wiki/File:Sega-Master-System-Set.png
+Creator: Evan-Amos
+Licence: Public domain
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/mastersystem/images/logo.svg
+
+Game Gear
+Hardware: https://commons.wikimedia.org/wiki/File:Sega-Game-Gear-FR.jpg
+Creator: Evan-Amos
+Licence: Public domain
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/gamegear/images/logo.svg
+
+SG-1000
+Hardware: https://commons.wikimedia.org/wiki/File:Sega-SG-1000-Console-Set.png
+Creator: Evan-Amos
+Licence: CC BY-SA 3.0
+Licence link: https://creativecommons.org/licenses/by-sa/3.0
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/sg-1000/images/logo.svg
+
+PC Engine
+Hardware: https://commons.wikimedia.org/wiki/File:PC-Engine-Console-Set.png
+Creator: Evan-Amos
+Licence: Public domain
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/pcengine/images/logo.svg
+
+Neo Geo Pocket
+Hardware: https://commons.wikimedia.org/wiki/File:Neo-Geo-Pocket-Anthra-Left.png
+Creator: Evan-Amos
+Licence: CC0
+Licence link: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/ngp/images/logo.svg
+
+Neo Geo Pocket Color
+Hardware: https://commons.wikimedia.org/wiki/File:Neo-Geo-Pocket-Color-Blue-Left.png
+Creator: Evan-Amos
+Licence: CC0
+Licence link: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/ngpc/images/logo.svg
+
+WonderSwan
+Hardware: https://commons.wikimedia.org/wiki/File:WonderSwan-Black-Left.png
+Creator: Evan-Amos
+Licence: CC0
+Licence link: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/wonderswan/images/logo.svg
+
+WonderSwan Color
+Hardware: https://commons.wikimedia.org/wiki/File:WonderSwan-Color-Blue-Left.png
+Creator: Evan-Amos
+Licence: CC0
+Licence link: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/wonderswancolor/images/logo.svg
+
+MSX
+Hardware: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/msx/images/consolegame.svg
+Licence: MIT
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/msx/images/logo.svg
+
+Watara Supervision
+Hardware: https://commons.wikimedia.org/wiki/File:Watara_Supervision_game_console.png
+Creator: User:Letzte*Spieler , digital alterations by me
+Licence: CC BY-SA 3.0
+Licence link: https://creativecommons.org/licenses/by-sa/3.0
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/supervision/images/logo.svg
+
+ZX Spectrum
+Hardware: https://commons.wikimedia.org/wiki/File:ZXSpectrum48k.jpg
+Creator: Bill Bertram
+Licence: CC BY-SA 2.5
+Licence link: https://creativecommons.org/licenses/by-sa/2.5
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/zxspectrum/images/logo.svg
+
+ColecoVision
+Hardware: https://commons.wikimedia.org/wiki/File:ColecoVision-wController-L.png
+Creator: OliverGalvin
+Licence: CC0
+Licence link: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/colecovision/images/logo.svg
+
+Arcadia 2001
+Hardware: https://commons.wikimedia.org/wiki/File:Emerson-Arcadia-2001.png
+Creator: Evan-Amos
+Licence: CC BY-SA 3.0
+Licence link: https://creativecommons.org/licenses/by-sa/3.0
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/arcadia/images/logo.svg
+
+Super Cassette Vision
+Hardware: https://commons.wikimedia.org/wiki/File:Super-Cassette-Vision-Console-L.jpg
+Creator: Evan-Amos
+Licence: Public domain
+Wordmark: https://gitlab.com/es-de/emulationstation-de/-/raw/master/themes/slate-es-de/scv/images/logo.svg
+
+ES-DE is distributed under the MIT licence. See https://gitlab.com/es-de/emulationstation-de

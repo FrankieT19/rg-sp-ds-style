@@ -1,0 +1,354 @@
+[
+  {
+    "system": "A800",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/atari800.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/atari800.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "A2600",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/atari2600.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/atari2600.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "A5200",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/atari5200.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/atari5200.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "A7800",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/atari7800.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/atari7800.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "AMIGA",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/amiga.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/amiga.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "ATARIST",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/atarist.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/atarist.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "ATOMISWAVE",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/atomiswave.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/atomiswave.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "C64",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/c64.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/c64.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "CPS1",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/cps1.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/cps1.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "CPS2",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/cps2.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/cps2.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "CPS3",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/cps3.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/cps3.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "DOS",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/pc.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/pc.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "DREAMCAST",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/dreamcast.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/dreamcast.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "EASYRPG",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/easyrpg.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/easyrpg.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "FBNEO",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/fbneo.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/fbneo.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "FDS",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/fds.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/fds.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "GW",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/gameandwatch.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/gameandwatch.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "HBMAME",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/hbmame.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/hbmame.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "LYNX",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/atarilynx.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/atarilynx.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "MAME",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/mame.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/mame.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "MD",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/megadrive.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/megadrive.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "MDCD",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/segacd.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/segacd.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "N64",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/n64.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/n64.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "NAOMI",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/naomi.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/naomi.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "NDS",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/nds.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/nds.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "NEOCD",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/neogeocd.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/neogeocd.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "NEOGEO",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/neogeo.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/neogeo.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "OPENBOR",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/openbor.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/openbor.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "PCECD",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/pcenginecd.png",
+    "wordmark": "Platform name, typeset",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "PICO",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/pico8.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/pico8.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "POKE",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/pokemini.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/pokemini.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "PS",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/psx.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/psx.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "PSP",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/psp.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/psp.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "SATURN",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/saturn.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/saturn.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "SEGA32X",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/sega32x.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/sega32x.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "SFC",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/snes.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/snes.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "VARCADE",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/arcade.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/arcade.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "VB",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/virtualboy.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/virtualboy.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "VIC20",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/vic20.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/vic20.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "SCUMMVM",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/scummvm.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/scummvm.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "PORTS",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/ports.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/ports.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "3DO",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/3do.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/3do.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "JAGUAR",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/atarijaguar.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/atarijaguar.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  },
+  {
+    "system": "AMIGACD32",
+    "hardware": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/consoles/amigacd32.png",
+    "wordmark": "https://github.com/EmuELEC/es-theme-EmuELEC-carbon/blob/master/art/logos/amigacd32.svg",
+    "changes": "Fresh white composition from clean hardware and wordmark sources at 480x320 and 320x320, preserving 24-bit detail. No generated hardware.",
+    "license": "CC BY-NC-SA; source license retained in Console-artwork-Carbon.txt; adaptations CC BY-NC-SA 4.0",
+    "credit": "EmuELEC Carbon contributors; Carbon by Rookervik, based on Simple by Nils Bonenberger; trademarks belong to their owners"
+  }
+]

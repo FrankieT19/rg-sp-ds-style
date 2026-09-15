@@ -1,0 +1,23 @@
+{
+  "cartridge": {
+    "source": "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Advance-Cartridge.jpg",
+    "author": "Evan-Amos",
+    "license": "Public domain",
+    "processing": "Background flood removed, rotated 17 degrees, Lanczos reduction and edge cleanup"
+  },
+  "open_ds": {
+    "source": "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Lite-Black-Open.png",
+    "author": "Evan-Amos",
+    "license": "Public domain (PNG source)",
+    "file": "tools/art-inputs/nds-open-black.png",
+    "processing": "Photographed halves and hinge deskewed separately; Lanczos reduction, contrast and edge cleanup; 12-row maximum"
+  },
+  "unused_white_front_reference": {
+    "source": "https://commons.wikimedia.org/wiki/File:Nintendo_DS_Lite_(top_open_on).jpg",
+    "author": "Havok",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5/",
+    "file": "tools/art-inputs/nds-open-front.jpg",
+    "processing": "Background masked, Lanczos reduction, contrast and edge cleanup, maximum 12 rows"
+  }
+}

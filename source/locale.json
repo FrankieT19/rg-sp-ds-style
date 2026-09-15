@@ -1,0 +1,1642 @@
+[
+  [
+    "Browsing",
+    "Navigation",
+    "Navigation",
+    "Navegación",
+    "Navegação",
+    "Navigazione",
+    "Bladeren",
+    "Browsing"
+  ],
+  [
+    "Artwork",
+    "Illustrations",
+    "Bilder",
+    "Imágenes",
+    "Imagens",
+    "Immagini",
+    "Afbeeldingen",
+    "Artwork"
+  ],
+  [
+    "Appearance",
+    "Apparence",
+    "Aussehen",
+    "Aspecto",
+    "Aparência",
+    "Aspetto",
+    "Uiterlijk",
+    "Appearance"
+  ],
+  [
+    "Startup",
+    "Démarrage",
+    "Startverhalten",
+    "Inicio",
+    "Arranque",
+    "Avvio",
+    "Opstarten",
+    "Startup"
+  ],
+  [
+    "Sound",
+    "Son",
+    "Ton",
+    "Sonido",
+    "Som",
+    "Audio",
+    "Geluid",
+    "Sound"
+  ],
+  [
+    "System",
+    "Système",
+    "System",
+    "Sistema",
+    "Sistema",
+    "Sistema",
+    "Systeem",
+    "System"
+  ],
+  [
+    "Controls",
+    "Commandes",
+    "Steuerung",
+    "Controles",
+    "Controlos",
+    "Comandi",
+    "Bediening",
+    "Controls"
+  ],
+  [
+    "Help",
+    "Aide",
+    "Hilfe",
+    "Ayuda",
+    "Ajuda",
+    "Aiuto",
+    "Hulp",
+    "Help"
+  ],
+  [
+    "Settings",
+    "Réglages",
+    "Einstellungen",
+    "Ajustes",
+    "Definições",
+    "Impostazioni",
+    "Instellingen",
+    "Settings"
+  ],
+  [
+    "Clock format",
+    "Format heure",
+    "Zeitformat",
+    "Formato hora",
+    "Formato hora",
+    "Formato ora",
+    "Klokformaat",
+    "Clock format"
+  ],
+  [
+    "List folders",
+    "Dossiers",
+    "Ordneransicht",
+    "Ver carpetas",
+    "Ver pastas",
+    "Vista cartelle",
+    "Mapweergave",
+    "List folders"
+  ],
+  [
+    "System names",
+    "Noms systèmes",
+    "Systemnamen",
+    "Nombres",
+    "Nomes sistemas",
+    "Nomi sistemi",
+    "Systeemnamen",
+    "System names"
+  ],
+  [
+    "Clean list",
+    "Liste épurée",
+    "Kurze Namen",
+    "Lista limpia",
+    "Lista simples",
+    "Lista pulita",
+    "Schone lijst",
+    "Clean list"
+  ],
+  [
+    "Colour",
+    "Couleur",
+    "Farbe",
+    "Color",
+    "Cor",
+    "Colore",
+    "Kleur",
+    "Color"
+  ],
+  [
+    "View",
+    "Affichage",
+    "Ansicht",
+    "Vista",
+    "Vista",
+    "Vista",
+    "Weergave",
+    "View"
+  ],
+  [
+    "GBA res. art",
+    "Rés. GBA",
+    "GBA-Auflösung",
+    "Resolución GBA",
+    "Resolução GBA",
+    "Risoluz. GBA",
+    "GBA-resolutie",
+    "GBA res. art"
+  ],
+  [
+    "Art border",
+    "Bordure image",
+    "Bildrahmen",
+    "Borde imagen",
+    "Borda imagem",
+    "Bordo immagine",
+    "Beeldrand",
+    "Art border"
+  ],
+  [
+    "Round corners",
+    "Coins arrondis",
+    "Runde Ecken",
+    "Redondear",
+    "Arredondar",
+    "Angoli tondi",
+    "Ronde hoeken",
+    "Round corners"
+  ],
+  [
+    "Vert. side",
+    "Côtés vert.",
+    "Vert. Vorschau",
+    "Lados vert.",
+    "Lados vert.",
+    "Lati vert.",
+    "Vert. zijkant",
+    "Vert. side"
+  ],
+  [
+    "Horiz. side",
+    "Côtés horiz.",
+    "Hor. Vorschau",
+    "Lados horiz.",
+    "Lados horiz.",
+    "Lati orizz.",
+    "Hor. zijkant",
+    "Horiz. side"
+  ],
+  [
+    "Horiz. fit",
+    "Largeur image",
+    "Bildbreite",
+    "Ancho imagen",
+    "Largura imagem",
+    "Larghezza",
+    "Beeldbreedte",
+    "Horiz. fit"
+  ],
+  [
+    "List artwork",
+    "Place image",
+    "Bildposition",
+    "Posición arte",
+    "Posição imagem",
+    "Posiz. figura",
+    "Beeldpositie",
+    "List artwork"
+  ],
+  [
+    "Home button",
+    "Bouton accueil",
+    "Starttaste",
+    "Botón inicio",
+    "Botão início",
+    "Tasto iniziale",
+    "Startknop",
+    "Home button"
+  ],
+  [
+    "LCD grid",
+    "Grille LCD",
+    "LCD-Raster",
+    "Rejilla LCD",
+    "Grelha LCD",
+    "Griglia LCD",
+    "LCD-raster",
+    "LCD grid"
+  ],
+  [
+    "Stock OS",
+    "OS d'origine",
+    "Original-OS",
+    "SO original",
+    "SO original",
+    "SO originale",
+    "Origineel OS",
+    "Stock OS"
+  ],
+  [
+    "Autoboot",
+    "Auto DS Style",
+    "DS-Autostart",
+    "Auto DS Style",
+    "Auto DS Style",
+    "Auto DS Style",
+    "DS-autostart",
+    "Autoboot"
+  ],
+  [
+    "Reboot",
+    "Redémarrer",
+    "Neustart",
+    "Reiniciar",
+    "Reiniciar",
+    "Riavvia",
+    "Herstarten",
+    "Reboot"
+  ],
+  [
+    "Shutdown",
+    "Éteindre",
+    "Ausschalten",
+    "Apagar",
+    "Desligar",
+    "Spegni",
+    "Afsluiten",
+    "Shutdown"
+  ],
+  [
+    "Apps",
+    "Applis",
+    "Apps",
+    "Apps",
+    "Apps",
+    "App",
+    "Apps",
+    "Apps"
+  ],
+  [
+    "UI sounds",
+    "Sons des menus",
+    "Menütöne",
+    "Sonidos menú",
+    "Sons dos menus",
+    "Suoni menu",
+    "Menugeluiden",
+    "UI sounds"
+  ],
+  [
+    "Startup sound",
+    "Son au départ",
+    "Startton",
+    "Sonido inicio",
+    "Som inicial",
+    "Suono avvio",
+    "Opstartgeluid",
+    "Startup sound"
+  ],
+  [
+    "System icons",
+    "Icônes système",
+    "Systemsymbole",
+    "Iconos sistema",
+    "Ícones sistema",
+    "Icone sistema",
+    "Systeemiconen",
+    "System icons"
+  ],
+  [
+    "Dark mode",
+    "Mode sombre",
+    "Dunkelmodus",
+    "Modo oscuro",
+    "Modo escuro",
+    "Tema scuro",
+    "Donkere modus",
+    "Dark mode"
+  ],
+  [
+    "Pixel transp.",
+    "Transp. pixels",
+    "Pixeltransp.",
+    "Transp. píxel",
+    "Transp. píxel",
+    "Trasp. pixel",
+    "Pixeltransp.",
+    "Pixel transp."
+  ],
+  [
+    "Boot to",
+    "Ouvrir au boot",
+    "Startziel",
+    "Iniciar en",
+    "Abrir ao ligar",
+    "Apri all'avvio",
+    "Startscherm",
+    "Boot to"
+  ],
+  [
+    "Home screen",
+    "Écran accueil",
+    "Startseite",
+    "Inicio visible",
+    "Ecrã inicial",
+    "Scherm. inizio",
+    "Beginscherm",
+    "Home screen"
+  ],
+  [
+    "Home source",
+    "Jeu d'accueil",
+    "Startspiel aus",
+    "Juego inicial",
+    "Jogo inicial",
+    "Gioco iniziale",
+    "Startspel uit",
+    "Home source"
+  ],
+  [
+    "Quick start",
+    "Lancement vite",
+    "Schnellstart",
+    "Inicio rápido",
+    "Início rápido",
+    "Avvio rapido",
+    "Snelstart",
+    "Quick start"
+  ],
+  [
+    "Language",
+    "Langue",
+    "Sprache",
+    "Idioma",
+    "Idioma",
+    "Lingua",
+    "Taal",
+    "Language"
+  ],
+  [
+    "Controller",
+    "Manette",
+    "Controller",
+    "Mando",
+    "Comando",
+    "Controller",
+    "Controller",
+    "Controller"
+  ],
+  [
+    "Reset controls",
+    "Réinitialiser",
+    "Zurücksetzen",
+    "Restablecer",
+    "Repor botões",
+    "Ripristina",
+    "Knoppenherstel",
+    "Reset controls"
+  ],
+  [
+    "Accept",
+    "Valider",
+    "Bestätigen",
+    "Aceptar",
+    "Confirmar",
+    "Conferma",
+    "Bevestigen",
+    "Accept"
+  ],
+  [
+    "Back",
+    "Retour",
+    "Zurück",
+    "Volver",
+    "Voltar",
+    "Indietro",
+    "Terug",
+    "Back"
+  ],
+  [
+    "Search / help",
+    "Recherche/aide",
+    "Suche / Hilfe",
+    "Buscar / ayuda",
+    "Busca / ajuda",
+    "Cerca / aiuto",
+    "Zoeken / hulp",
+    "Search / help"
+  ],
+  [
+    "Favourite",
+    "Favori",
+    "Favorit",
+    "Favorito",
+    "Favorito",
+    "Preferito",
+    "Favoriet",
+    "Favorite"
+  ],
+  [
+    "View / source",
+    "Vue / source",
+    "Ansicht/Quelle",
+    "Vista / origen",
+    "Vista / origem",
+    "Vista / fonte",
+    "Weergave/bron",
+    "View / source"
+  ],
+  [
+    "Previous tab",
+    "Onglet avant",
+    "Voriger Reiter",
+    "Pestaña previa",
+    "Separador ant.",
+    "Scheda prima",
+    "Vorig tabblad",
+    "Previous tab"
+  ],
+  [
+    "Next tab",
+    "Onglet suivant",
+    "Nächster Reiter",
+    "Pestaña sig.",
+    "Separador seg.",
+    "Scheda dopo",
+    "Volgend tabblad",
+    "Next tab"
+  ],
+  [
+    "Launch mode",
+    "Mode lancement",
+    "Startmodus",
+    "Modo ejecución",
+    "Modo arranque",
+    "Modo avvio",
+    "Startmodus",
+    "Launch mode"
+  ],
+  [
+    "Recents",
+    "Récents",
+    "Zuletzt",
+    "Recientes",
+    "Recentes",
+    "Recenti",
+    "Recent",
+    "Recents"
+  ],
+  [
+    "Favourites",
+    "Favoris",
+    "Favoriten",
+    "Favoritos",
+    "Favoritos",
+    "Preferiti",
+    "Favorieten",
+    "Favorites"
+  ],
+  [
+    "Games",
+    "Jeux",
+    "Spiele",
+    "Juegos",
+    "Jogos",
+    "Giochi",
+    "Spellen",
+    "Games"
+  ],
+  [
+    "Systems",
+    "Systèmes",
+    "Systeme",
+    "Sistemas",
+    "Sistemas",
+    "Sistemi",
+    "Systemen",
+    "Systems"
+  ],
+  [
+    "Home",
+    "Accueil",
+    "Startseite",
+    "Inicio",
+    "Início",
+    "Inizio",
+    "Begin",
+    "Home"
+  ],
+  [
+    "Last game",
+    "Dernier jeu",
+    "Letztes Spiel",
+    "Último juego",
+    "Último jogo",
+    "Ultimo gioco",
+    "Laatste spel",
+    "Last game"
+  ],
+  [
+    "On",
+    "Oui",
+    "Ein",
+    "Sí",
+    "Sim",
+    "Sì",
+    "Aan",
+    "On"
+  ],
+  [
+    "Off",
+    "Non",
+    "Aus",
+    "No",
+    "Não",
+    "No",
+    "Uit",
+    "Off"
+  ],
+  [
+    "List",
+    "Liste",
+    "Liste",
+    "Lista",
+    "Lista",
+    "Lista",
+    "Lijst",
+    "List"
+  ],
+  [
+    "List + Art",
+    "Liste + image",
+    "Liste + Bild",
+    "Lista + imagen",
+    "Lista + imagem",
+    "Lista + figure",
+    "Lijst + beeld",
+    "List + Art"
+  ],
+  [
+    "Horizontal",
+    "Horizontal",
+    "Horizontal",
+    "Horizontal",
+    "Horizontal",
+    "Orizzontale",
+    "Horizontaal",
+    "Horizontal"
+  ],
+  [
+    "Vertical",
+    "Vertical",
+    "Vertikal",
+    "Vertical",
+    "Vertical",
+    "Verticale",
+    "Verticaal",
+    "Vertical"
+  ],
+  [
+    "Top",
+    "Haut",
+    "Oben",
+    "Arriba",
+    "Topo",
+    "Alto",
+    "Boven",
+    "Top"
+  ],
+  [
+    "Centre",
+    "Centre",
+    "Mitte",
+    "Centro",
+    "Centro",
+    "Centro",
+    "Midden",
+    "Center"
+  ],
+  [
+    "Bottom",
+    "Bas",
+    "Unten",
+    "Abajo",
+    "Fundo",
+    "Basso",
+    "Onder",
+    "Bottom"
+  ],
+  [
+    "Left",
+    "Gauche",
+    "Links",
+    "Izquierda",
+    "Esquerda",
+    "Sinistra",
+    "Links",
+    "Left"
+  ],
+  [
+    "Right",
+    "Droite",
+    "Rechts",
+    "Derecha",
+    "Direita",
+    "Destra",
+    "Rechts",
+    "Right"
+  ],
+  [
+    "Contain",
+    "Ajuster",
+    "Einpassen",
+    "Ajustar",
+    "Ajustar",
+    "Adatta",
+    "Passend",
+    "Contain"
+  ],
+  [
+    "Overlap",
+    "Déborder",
+    "Überlappen",
+    "Superponer",
+    "Sobrepor",
+    "Sovrapponi",
+    "Overlappen",
+    "Overlap"
+  ],
+  [
+    "Accent",
+    "Accent",
+    "Akzent",
+    "Acento",
+    "Destaque",
+    "Accento",
+    "Accent",
+    "Accent"
+  ],
+  [
+    "Black",
+    "Noir",
+    "Schwarz",
+    "Negro",
+    "Preto",
+    "Nero",
+    "Zwart",
+    "Black"
+  ],
+  [
+    "Grey",
+    "Gris",
+    "Grau",
+    "Gris",
+    "Cinzento",
+    "Grigio",
+    "Grijs",
+    "Grey"
+  ],
+  [
+    "White",
+    "Blanc",
+    "Weiß",
+    "Blanco",
+    "Branco",
+    "Bianco",
+    "Wit",
+    "White"
+  ],
+  [
+    "Full",
+    "Complet",
+    "Voll",
+    "Completo",
+    "Completo",
+    "Completo",
+    "Volledig",
+    "Full"
+  ],
+  [
+    "Short",
+    "Court",
+    "Kurz",
+    "Corto",
+    "Curto",
+    "Breve",
+    "Kort",
+    "Short"
+  ],
+  [
+    "No Start",
+    "Sauf accueil",
+    "Ohne Start",
+    "Salvo inicio",
+    "Sem início",
+    "Tranne inizio",
+    "Behalve begin",
+    "No Start"
+  ],
+  [
+    "Folders",
+    "Dossiers",
+    "Ordner",
+    "Carpetas",
+    "Pastas",
+    "Cartelle",
+    "Mappen",
+    "Folders"
+  ],
+  [
+    "12 hour",
+    "12 heures",
+    "12 Stunden",
+    "12 horas",
+    "12 horas",
+    "12 ore",
+    "12 uur",
+    "12 hour"
+  ],
+  [
+    "24 hour",
+    "24 heures",
+    "24 Stunden",
+    "24 horas",
+    "24 horas",
+    "24 ore",
+    "24 uur",
+    "24 hour"
+  ],
+  [
+    "Search",
+    "Recherche",
+    "Suche",
+    "Buscar",
+    "Procurar",
+    "Cerca",
+    "Zoeken",
+    "Search"
+  ],
+  [
+    "Delete",
+    "Effacer",
+    "Löschen",
+    "Borrar",
+    "Apagar",
+    "Cancella",
+    "Wissen",
+    "Delete"
+  ],
+  [
+    "Results",
+    "Résultats",
+    "Ergebnisse",
+    "Resultados",
+    "Resultados",
+    "Risultati",
+    "Resultaten",
+    "Results"
+  ],
+  [
+    "Launching",
+    "Lancement",
+    "Wird gestartet",
+    "Iniciando",
+    "A iniciar",
+    "Avvio",
+    "Starten",
+    "Launching"
+  ],
+  [
+    "No games found",
+    "Aucun jeu trouvé",
+    "Keine Spiele",
+    "No hay juegos",
+    "Sem jogos",
+    "Nessun gioco",
+    "Geen spellen",
+    "No games found"
+  ],
+  [
+    "No favourites",
+    "Aucun favori",
+    "Keine Favoriten",
+    "Sin favoritos",
+    "Sem favoritos",
+    "Nessun preferito",
+    "Geen favorieten",
+    "No favorites"
+  ],
+  [
+    "No recent games",
+    "Aucun jeu récent",
+    "Keine letzten Spiele",
+    "Sin recientes",
+    "Sem recentes",
+    "Nessun recente",
+    "Geen recente spellen",
+    "No recent games"
+  ],
+  [
+    "No recent game",
+    "Aucun jeu récent",
+    "Kein letztes Spiel",
+    "Sin juego reciente",
+    "Sem jogo recente",
+    "Nessun recente",
+    "Geen recent spel",
+    "No recent game"
+  ],
+  [
+    "No favourite game",
+    "Aucun jeu favori",
+    "Kein Favorit",
+    "Sin juego favorito",
+    "Sem jogo favorito",
+    "Nessun preferito",
+    "Geen favoriet spel",
+    "No favorite game"
+  ],
+  [
+    "Controls reset",
+    "Commandes réinitialisées",
+    "Steuerung zurückgesetzt",
+    "Controles restablecidos",
+    "Controlos repostos",
+    "Comandi ripristinati",
+    "Bediening hersteld",
+    "Controls reset"
+  ],
+  [
+    "Added to favourites",
+    "Ajouté aux favoris",
+    "Zu Favoriten hinzugefügt",
+    "Añadido a favoritos",
+    "Adicionado aos favoritos",
+    "Aggiunto ai preferiti",
+    "Toegevoegd aan favorieten",
+    "Added to favorites"
+  ],
+  [
+    "Removed from favourites",
+    "Retiré des favoris",
+    "Aus Favoriten entfernt",
+    "Quitado de favoritos",
+    "Removido dos favoritos",
+    "Rimosso dai preferiti",
+    "Verwijderd uit favorieten",
+    "Removed from favorites"
+  ],
+  [
+    "Open / change",
+    "Ouvrir / modifier",
+    "Öffnen / ändern",
+    "Abrir / cambiar",
+    "Abrir / alterar",
+    "Apri / cambia",
+    "Openen / wijzigen",
+    "Open / change"
+  ],
+  [
+    "Back / cancel",
+    "Retour / annuler",
+    "Zurück / abbrechen",
+    "Volver / cancelar",
+    "Voltar / cancelar",
+    "Indietro / annulla",
+    "Terug / annuleren",
+    "Back / cancel"
+  ],
+  [
+    "Set favourite",
+    "Ajouter / retirer favori",
+    "Favorit setzen / löschen",
+    "Añadir / quitar favorito",
+    "Adicionar / tirar favorito",
+    "Imposta / togli preferito",
+    "Favoriet aan / uit",
+    "Set favorite"
+  ],
+  [
+    "Reboot?",
+    "Redémarrer ?",
+    "Neu starten?",
+    "¿Reiniciar?",
+    "Reiniciar?",
+    "Riavviare?",
+    "Herstarten?",
+    "Reboot?"
+  ],
+  [
+    "Shutdown?",
+    "Éteindre ?",
+    "Ausschalten?",
+    "¿Apagar?",
+    "Desligar?",
+    "Spegnere?",
+    "Afsluiten?",
+    "Shutdown?"
+  ],
+  [
+    "Yes",
+    "Oui",
+    "Ja",
+    "Sí",
+    "Sim",
+    "Sì",
+    "Ja",
+    "Yes"
+  ],
+  [
+    "Cancel",
+    "Annuler",
+    "Abbrechen",
+    "Cancelar",
+    "Cancelar",
+    "Annulla",
+    "Annuleren",
+    "Cancel"
+  ],
+  [
+    "Set launch mode",
+    "Mode de lancement",
+    "Startmodus wählen",
+    "Modo de ejecución",
+    "Modo de arranque",
+    "Modo di avvio",
+    "Startmodus kiezen",
+    "Set launch mode"
+  ],
+  [
+    "Choose a 12 or 24 hour clock.",
+    "Choisir une horloge sur 12 ou 24 heures.",
+    "12- oder 24-Stunden-Uhr wählen.",
+    "Elegir reloj de 12 o 24 horas.",
+    "Escolher relógio de 12 ou 24 horas.",
+    "Scegli l'orologio a 12 o 24 ore.",
+    "Kies een 12- of 24-uursklok.",
+    "Choose a 12 or 24 hour clock."
+  ],
+  [
+    "Use list views for folders. Game folders keep your chosen view.",
+    "Afficher les dossiers en liste. Les jeux gardent la vue choisie.",
+    "Ordner als Liste zeigen. Spiele behalten die gewählte Ansicht.",
+    "Ver carpetas como lista. Los juegos conservan su vista.",
+    "Ver pastas em lista. Os jogos mantêm a vista escolhida.",
+    "Mostra le cartelle in lista. I giochi mantengono la vista scelta.",
+    "Toon mappen als lijst. Spellen behouden de gekozen weergave.",
+    "Use list views for folders. Game folders keep your chosen view."
+  ],
+  [
+    "Show full system names. The top bar keeps short names.",
+    "Afficher les noms complets. La barre garde les noms courts.",
+    "Volle Systemnamen zeigen. Die Titelleiste bleibt kurz.",
+    "Mostrar nombres completos. La barra usa nombres cortos.",
+    "Mostrar nomes completos. A barra mantém nomes curtos.",
+    "Mostra nomi completi. La barra mantiene i nomi brevi.",
+    "Toon volledige systeemnamen. De titelbalk blijft kort.",
+    "Show full system names. The top bar keeps short names."
+  ],
+  [
+    "Hide file extensions, tags and file sizes in lists.",
+    "Masquer extensions, tags et tailles des fichiers.",
+    "Dateiendungen, Zusätze und Größen ausblenden.",
+    "Ocultar extensiones, etiquetas y tamaños.",
+    "Ocultar extensões, etiquetas e tamanhos.",
+    "Nascondi estensioni, etichette e dimensioni.",
+    "Verberg extensies, tags en bestandsgrootte.",
+    "Hide file extensions, tags and file sizes in lists."
+  ],
+  [
+    "Choose the accent colour used by bars and selections.",
+    "Choisir la couleur des barres et de la sélection.",
+    "Farbe für Leisten und Auswahl wählen.",
+    "Elegir color para barras y selección.",
+    "Escolher cor das barras e seleção.",
+    "Scegli il colore di barre e selezione.",
+    "Kies de kleur van balken en selectie.",
+    "Choose the accent color used by bars and selections."
+  ],
+  [
+    "Choose List, List + Art, Horizontal or Vertical.",
+    "Choisir liste, liste avec image ou carrousel horizontal ou vertical.",
+    "Liste, Liste mit Bild oder horizontale bzw. vertikale Ansicht wählen.",
+    "Elegir lista, lista con imagen o vista horizontal o vertical.",
+    "Escolher lista, lista com imagem ou vista horizontal ou vertical.",
+    "Scegli lista, lista con immagini o vista orizzontale o verticale.",
+    "Kies lijst, lijst met beeld, horizontaal of verticaal.",
+    "Choose List, List + Art, Horizontal or Vertical."
+  ],
+  [
+    "Render artwork at GBA resolution for a pixel look.",
+    "Afficher les images à la résolution GBA.",
+    "Bilder mit GBA-Auflösung darstellen.",
+    "Mostrar imágenes con resolución GBA.",
+    "Mostrar imagens com resolução GBA.",
+    "Mostra le immagini a risoluzione GBA.",
+    "Toon afbeeldingen op GBA-resolutie.",
+    "Render artwork at GBA resolution for a pixel look."
+  ],
+  [
+    "Choose the colour of the artwork outline, or turn it off.",
+    "Choisir la couleur de bordure, ou la désactiver.",
+    "Farbe des Bildrahmens wählen oder ihn ausschalten.",
+    "Elegir color del borde o desactivarlo.",
+    "Escolher cor da borda ou desligar.",
+    "Scegli il colore del bordo o disattivalo.",
+    "Kies de randkleur of schakel de rand uit.",
+    "Choose the color of the artwork outline, or turn it off."
+  ],
+  [
+    "Round artwork corners. No Start keeps home artwork square.",
+    "Arrondir les images. Sauf accueil garde l'image d'accueil carrée.",
+    "Bildecken abrunden. Ohne Start lässt das Startbild eckig.",
+    "Redondear imágenes. Salvo inicio mantiene recta la imagen inicial.",
+    "Arredondar imagens. Sem início mantém a imagem inicial quadrada.",
+    "Arrotonda le immagini. Tranne inizio lascia gli angoli iniziali dritti.",
+    "Rond hoeken af. Behalve begin houdt de startafbeelding recht.",
+    "Round artwork corners. No Start keeps home artwork square."
+  ],
+  [
+    "Align the smaller images in vertical view.",
+    "Aligner les petites images en vue verticale.",
+    "Kleine Bilder in der vertikalen Ansicht ausrichten.",
+    "Alinear imágenes pequeñas en vista vertical.",
+    "Alinhar imagens pequenas na vista vertical.",
+    "Allinea le immagini piccole nella vista verticale.",
+    "Lijn kleine afbeeldingen verticaal uit.",
+    "Align the smaller images in vertical view."
+  ],
+  [
+    "Align the smaller images in horizontal view.",
+    "Aligner les petites images en vue horizontale.",
+    "Kleine Bilder in der horizontalen Ansicht ausrichten.",
+    "Alinear imágenes pequeñas en vista horizontal.",
+    "Alinhar imagens pequenas na vista horizontal.",
+    "Allinea le immagini piccole nella vista orizzontale.",
+    "Lijn kleine afbeeldingen horizontaal uit.",
+    "Align the smaller images in horizontal view."
+  ],
+  [
+    "Contain wide images, or let them overlap in horizontal view.",
+    "Ajuster les images larges ou les laisser déborder en vue horizontale.",
+    "Breite Bilder einpassen oder horizontal überlappen lassen.",
+    "Ajustar imágenes anchas o permitir que se superpongan.",
+    "Ajustar imagens largas ou deixar sobrepor na vista horizontal.",
+    "Adatta immagini larghe o lasciale sovrapporre in orizzontale.",
+    "Pas brede afbeeldingen in of laat ze overlappen.",
+    "Contain wide images, or let them overlap in horizontal view."
+  ],
+  [
+    "Place list artwork at the top, centre or bottom.",
+    "Placer l'image en haut, au centre ou en bas de la liste.",
+    "Listenbild oben, mittig oder unten platzieren.",
+    "Colocar imagen arriba, al centro o abajo.",
+    "Colocar imagem no topo, centro ou fundo.",
+    "Posiziona l'immagine in alto, al centro o in basso.",
+    "Plaats het lijstbeeld boven, midden of onder.",
+    "Place list artwork at the top, center or bottom."
+  ],
+  [
+    "Choose Apps, Favourites or Recents for the home button.",
+    "Choisir Applis, Favoris ou Récents pour le bouton d'accueil.",
+    "Apps, Favoriten oder Zuletzt für die Starttaste wählen.",
+    "Elegir Apps, Favoritos o Recientes para el botón inicial.",
+    "Escolher Apps, Favoritos ou Recentes para o botão inicial.",
+    "Scegli App, Preferiti o Recenti per il tasto iniziale.",
+    "Kies Apps, Favorieten of Recent voor de startknop.",
+    "Choose Apps, Favorites or Recents for the home button."
+  ],
+  [
+    "Add an LCD grid to the screen.",
+    "Ajouter une grille LCD à l'écran.",
+    "Ein LCD-Raster auf dem Bildschirm anzeigen.",
+    "Añadir una rejilla LCD a la pantalla.",
+    "Adicionar uma grelha LCD ao ecrã.",
+    "Aggiungi una griglia LCD allo schermo.",
+    "Voeg een LCD-raster aan het scherm toe.",
+    "Add an LCD grid to the screen."
+  ],
+  [
+    "Return to Stock OS. Stock settings remain available there.",
+    "Revenir au système d'origine pour ses réglages avancés.",
+    "Zum Original-OS und seinen Einstellungen zurückkehren.",
+    "Volver al SO original para sus ajustes.",
+    "Voltar ao SO original para as suas definições.",
+    "Torna al SO originale e alle sue impostazioni.",
+    "Ga terug naar het originele OS voor instellingen.",
+    "Return to Stock OS. Stock settings remain available there."
+  ],
+  [
+    "Start DS Style automatically when the device boots.",
+    "Lancer DS Style automatiquement au démarrage.",
+    "DS Style beim Einschalten automatisch starten.",
+    "Abrir DS Style al encender el dispositivo.",
+    "Abrir DS Style ao ligar o dispositivo.",
+    "Avvia DS Style all'accensione.",
+    "Start DS Style automatisch bij inschakelen.",
+    "Start DS Style automatically when the device boots."
+  ],
+  [
+    "Restart the device using the stock power route.",
+    "Redémarrer avec la procédure du système d'origine.",
+    "Mit der Original-Systemroutine neu starten.",
+    "Reiniciar con la rutina del SO original.",
+    "Reiniciar pela rotina do SO original.",
+    "Riavvia con la procedura del SO originale.",
+    "Herstart via de originele systeemroutine.",
+    "Restart the device using the stock power route."
+  ],
+  [
+    "Turn off the device using the stock power route.",
+    "Éteindre avec la procédure du système d'origine.",
+    "Mit der Original-Systemroutine ausschalten.",
+    "Apagar con la rutina del SO original.",
+    "Desligar pela rotina do SO original.",
+    "Spegni con la procedura del SO originale.",
+    "Sluit af via de originele systeemroutine.",
+    "Turn off the device using the stock power route."
+  ],
+  [
+    "Open installed applications.",
+    "Ouvrir les applications installées.",
+    "Installierte Anwendungen öffnen.",
+    "Abrir aplicaciones instaladas.",
+    "Abrir aplicações instaladas.",
+    "Apri le applicazioni installate.",
+    "Open geïnstalleerde apps.",
+    "Open installed applications."
+  ],
+  [
+    "Play sounds when a menu action takes place.",
+    "Jouer un son lorsqu'une action est effectuée.",
+    "Bei einer Menüaktion einen Ton abspielen.",
+    "Reproducir sonido al realizar una acción.",
+    "Tocar som quando ocorre uma ação.",
+    "Riproduci un suono quando avviene un'azione.",
+    "Speel geluid bij een menuactie.",
+    "Play sounds when a menu action takes place."
+  ],
+  [
+    "Play a startup sound on device boot.",
+    "Jouer un son au démarrage de l'appareil.",
+    "Beim Einschalten des Geräts einen Startton abspielen.",
+    "Reproducir un sonido al encender el dispositivo.",
+    "Reproduzir um som ao ligar o dispositivo.",
+    "Riproduci un suono all'avvio del dispositivo.",
+    "Speel een geluid af wanneer het apparaat opstart.",
+    "Play a startup sound on device boot."
+  ],
+  [
+    "Use console icons or folder icons for systems.",
+    "Afficher des icônes de consoles ou de dossiers.",
+    "Konsolen- oder Ordnersymbole anzeigen.",
+    "Mostrar iconos de consolas o carpetas.",
+    "Mostrar ícones de consolas ou pastas.",
+    "Mostra icone di console o cartelle.",
+    "Toon console- of mappictogrammen.",
+    "Use console icons or folder icons for systems."
+  ],
+  [
+    "Toggle dark backgrounds.",
+    "Activer ou désactiver les fonds sombres.",
+    "Dunkle Hintergründe ein- oder ausschalten.",
+    "Activar o desactivar fondos oscuros.",
+    "Ativar ou desativar fundos escuros.",
+    "Attiva o disattiva gli sfondi scuri.",
+    "Schakel donkere achtergronden in of uit.",
+    "Toggle dark backgrounds."
+  ],
+  [
+    "Add a pixel transparency effect.",
+    "Ajouter un effet de transparence des pixels.",
+    "Einen Pixeltransparenzeffekt hinzufügen.",
+    "Añadir un efecto de transparencia de píxeles.",
+    "Adicionar um efeito de transparência de píxeis.",
+    "Aggiungi un effetto di trasparenza dei pixel.",
+    "Voeg een pixeltransparantie-effect toe.",
+    "Add a pixel transparency effect."
+  ],
+  [
+    "Choose where DS Style starts. Hold START at startup to skip automatic game launch.",
+    "Choisir l'écran initial. Maintenir START au démarrage pour éviter le lancement automatique.",
+    "Startziel wählen. START beim Start halten, um den automatischen Spielstart zu überspringen.",
+    "Elegir inicio. Mantener START al encender para evitar el juego automático.",
+    "Escolher início. Segurar START ao ligar para evitar o jogo automático.",
+    "Scegli l'avvio. Tieni START all'accensione per saltare l'avvio del gioco.",
+    "Kies het startdoel. Houd START vast bij opstarten om automatisch spelen over te slaan.",
+    "Choose where DS Style starts. Hold START at startup to skip automatic game launch."
+  ],
+  [
+    "Turn off the home screen. Home boot then opens Games.",
+    "Désactiver l'accueil. Le démarrage Accueil ouvre alors Jeux.",
+    "Startbildschirm ausschalten. Startseite öffnet dann Spiele.",
+    "Desactivar inicio. El destino Inicio abrirá Juegos.",
+    "Desligar ecrã inicial. O destino Início abre Jogos.",
+    "Disattiva la schermata iniziale. Inizio aprirà Giochi.",
+    "Schakel het beginscherm uit. Begin opent dan Spellen.",
+    "Turn off the home screen. Home boot then opens Games."
+  ],
+  [
+    "Choose Recents or Favourites for the home game.",
+    "Choisir Récents ou Favoris pour le jeu d'accueil.",
+    "Zuletzt oder Favoriten als Quelle des Startspiels wählen.",
+    "Elegir Recientes o Favoritos para el juego inicial.",
+    "Escolher Recentes ou Favoritos para o jogo inicial.",
+    "Scegli Recenti o Preferiti per il gioco iniziale.",
+    "Kies Recent of Favorieten voor het startspel.",
+    "Choose Recents or Favorites for the home game."
+  ],
+  [
+    "Hold this button at startup to launch the home game.",
+    "Maintenir ce bouton au démarrage pour lancer le jeu d'accueil.",
+    "Diese Taste beim Start halten, um das Startspiel zu öffnen.",
+    "Mantener este botón al encender para abrir el juego de inicio.",
+    "Segurar este botão ao ligar para abrir o jogo inicial.",
+    "Tieni questo tasto all'avvio per aprire il gioco iniziale.",
+    "Houd deze knop vast bij het opstarten om het startspel te openen.",
+    "Hold this button at startup to launch the home game."
+  ],
+  [
+    "Choose the interface language. Game filenames stay unchanged.",
+    "Choisir la langue des menus. Les noms de jeux restent inchangés.",
+    "Menüsprache wählen. Spieldateinamen bleiben unverändert.",
+    "Elegir idioma de menús. Los nombres de juegos no cambian.",
+    "Escolher idioma dos menus. Os nomes dos jogos não mudam.",
+    "Scegli la lingua dei menu. I nomi dei giochi non cambiano.",
+    "Kies de menutaal. Spelbestandsnamen blijven gelijk.",
+    "Choose the interface language. Game filenames stay unchanged."
+  ],
+  [
+    "Choose a controller to edit. Connected devices are detected automatically.",
+    "Choisir la manette à régler. Les connexions sont détectées automatiquement.",
+    "Controller zum Bearbeiten wählen. Neue Geräte werden automatisch erkannt.",
+    "Elegir mando a configurar. Las conexiones se detectan automáticamente.",
+    "Escolher comando a configurar. As ligações são detetadas automaticamente.",
+    "Scegli il controller da configurare. Le connessioni vengono rilevate.",
+    "Kies de controller. Verbonden apparaten worden automatisch herkend.",
+    "Choose a controller to edit. Connected devices are detected automatically."
+  ],
+  [
+    "Restore this controller's default buttons. D-pad navigation stays fixed.",
+    "Rétablir les boutons de cette manette. La croix reste fixe.",
+    "Standardtasten dieses Controllers wiederherstellen. Das Steuerkreuz bleibt fest.",
+    "Restablecer botones de este mando. La cruceta queda fija.",
+    "Repor botões deste comando. O direcional mantém-se fixo.",
+    "Ripristina i tasti del controller. La croce direzionale resta fissa.",
+    "Herstel de knoppen van deze controller. Het D-pad blijft vast.",
+    "Restore this controller's default buttons. D-pad navigation stays fixed."
+  ],
+  [
+    "Hold START while DS Style starts to return to the menu when Last game boot is enabled.",
+    "Maintenir START au démarrage de DS Style pour revenir au menu si Dernier jeu est activé.",
+    "START beim DS-Style-Start halten, um bei Letztes Spiel zum Menü zurückzukehren.",
+    "Mantén START al iniciar DS Style para volver al menú si Último juego está activado.",
+    "Segura START ao iniciar DS Style para voltar ao menu se Último jogo estiver ativo.",
+    "Tieni START all'avvio di DS Style per tornare al menu con Ultimo gioco attivo.",
+    "Houd START vast bij het starten van DS Style om terug te keren bij Laatste spel.",
+    "Hold START while DS Style starts to return to the menu when Last game boot is enabled."
+  ],
+  [
+    "Press a new button to bind. Conflicts swap buttons. D-pad Left cancels. Binding times out after 5 seconds.",
+    "Appuyer sur un nouveau bouton à assigner. Les conflits échangent les boutons. Gauche sur la croix annule ; délai de 5 secondes.",
+    "Neue Taste zum Belegen drücken. Konflikte tauschen Tasten. Steuerkreuz links bricht ab; Zeitlimit: 5 Sekunden.",
+    "Pulsa un botón nuevo para asignarlo. Los conflictos intercambian botones. Izquierda en la cruceta cancela; límite de 5 segundos.",
+    "Prime um novo botão para atribuir. Os conflitos trocam botões. Esquerda no direcional cancela; limite de 5 segundos.",
+    "Premi un nuovo tasto da assegnare. I conflitti scambiano i tasti. Sinistra sul D-pad annulla; limite di 5 secondi.",
+    "Druk op een nieuwe knop om te koppelen. Conflicten wisselen knoppen. D-pad links annuleert; tijdslimiet: 5 seconden.",
+    "Press a new button to bind. Conflicts swap buttons. D-pad Left cancels. Binding times out after 5 seconds."
+  ],
+  [
+    "Navigate",
+    "Naviguer",
+    "Navigieren",
+    "Navegar",
+    "Navegar",
+    "Naviga",
+    "Navigeren",
+    "Navigate"
+  ],
+  [
+    "Volume",
+    "Volume",
+    "Lautstärke",
+    "Volumen",
+    "Volume",
+    "Volume",
+    "Volume",
+    "Volume"
+  ],
+  [
+    "Brightness",
+    "Luminosité",
+    "Helligkeit",
+    "Brillo",
+    "Brilho",
+    "Luminosità",
+    "Helderheid",
+    "Brightness"
+  ],
+  [
+    "Startup escape",
+    "Retour au démarrage",
+    "Start abbrechen",
+    "Cancelar inicio",
+    "Cancelar início",
+    "Annulla avvio",
+    "Opstarten afbreken",
+    "Startup escape"
+  ],
+  [
+    "Pale Blue",
+    "Bleu pâle",
+    "Blassblau",
+    "Azul pálido",
+    "Azul pálido",
+    "Azzurro tenue",
+    "Bleekblauw",
+    "Pale Blue"
+  ],
+  [
+    "Light Blue",
+    "Bleu clair",
+    "Hellblau",
+    "Azul claro",
+    "Azul claro",
+    "Azzurro",
+    "Lichtblauw",
+    "Light Blue"
+  ],
+  [
+    "Blue",
+    "Bleu",
+    "Blau",
+    "Azul",
+    "Azul",
+    "Blu",
+    "Blauw",
+    "Blue"
+  ],
+  [
+    "Dark Blue",
+    "Bleu foncé",
+    "Dunkelblau",
+    "Azul oscuro",
+    "Azul escuro",
+    "Blu scuro",
+    "Donkerblauw",
+    "Dark Blue"
+  ],
+  [
+    "Green",
+    "Vert",
+    "Grün",
+    "Verde",
+    "Verde",
+    "Verde",
+    "Groen",
+    "Green"
+  ],
+  [
+    "Pale Green",
+    "Vert pâle",
+    "Blassgrün",
+    "Verde pálido",
+    "Verde pálido",
+    "Verde tenue",
+    "Bleekgroen",
+    "Pale Green"
+  ],
+  [
+    "Bright Green",
+    "Vert vif",
+    "Leuchtgrün",
+    "Verde vivo",
+    "Verde vivo",
+    "Verde vivo",
+    "Felgroen",
+    "Bright Green"
+  ],
+  [
+    "Lime",
+    "Citron vert",
+    "Limonengrün",
+    "Lima",
+    "Lima",
+    "Lime",
+    "Limoengroen",
+    "Lime"
+  ],
+  [
+    "Yellow",
+    "Jaune",
+    "Gelb",
+    "Amarillo",
+    "Amarelo",
+    "Giallo",
+    "Geel",
+    "Yellow"
+  ],
+  [
+    "Red",
+    "Rouge",
+    "Rot",
+    "Rojo",
+    "Vermelho",
+    "Rosso",
+    "Rood",
+    "Red"
+  ],
+  [
+    "Orange",
+    "Orange",
+    "Orange",
+    "Naranja",
+    "Laranja",
+    "Arancione",
+    "Oranje",
+    "Orange"
+  ],
+  [
+    "Brown",
+    "Marron",
+    "Braun",
+    "Marrón",
+    "Castanho",
+    "Marrone",
+    "Bruin",
+    "Brown"
+  ],
+  [
+    "Pink",
+    "Rose",
+    "Rosa",
+    "Rosa",
+    "Rosa",
+    "Rosa",
+    "Roze",
+    "Pink"
+  ],
+  [
+    "Pale Pink",
+    "Rose pâle",
+    "Blassrosa",
+    "Rosa pálido",
+    "Rosa pálido",
+    "Rosa tenue",
+    "Bleekroze",
+    "Pale Pink"
+  ],
+  [
+    "Magenta",
+    "Magenta",
+    "Magenta",
+    "Magenta",
+    "Magenta",
+    "Magenta",
+    "Magenta",
+    "Magenta"
+  ],
+  [
+    "Purple",
+    "Violet",
+    "Violett",
+    "Morado",
+    "Roxo",
+    "Viola",
+    "Paars",
+    "Purple"
+  ],
+  [
+    "Favs",
+    "Favs",
+    "Favs",
+    "Favs",
+    "Favs",
+    "Pref.",
+    "Favs",
+    "Favs"
+  ],
+  [
+    "About",
+    "À propos",
+    "Über",
+    "Acerca de",
+    "Sobre",
+    "Informazioni",
+    "Over",
+    "About"
+  ],
+  [
+    "Apps in Games",
+    "Applis en jeux",
+    "Apps in Spiele",
+    "Apps en juegos",
+    "Apps nos jogos",
+    "App nei giochi",
+    "Apps in Games",
+    "Apps in Games"
+  ],
+  [
+    "Show an Apps shortcut in the Systems list.",
+    "Afficher un raccourci vers les applis dans la liste des consoles.",
+    "Eine Apps-Verknüpfung in der Systemliste anzeigen.",
+    "Mostrar un acceso a Apps en la lista de sistemas.",
+    "Mostrar um atalho para Apps na lista de sistemas.",
+    "Mostra un collegamento alle app nella lista dei sistemi.",
+    "Toon een Apps-snelkoppeling in de systeemlijst.",
+    "Show an Apps shortcut in the Systems list."
+  ],
+  [
+    "Created by FrankieT19.",
+    "Créé par FrankieT19.",
+    "Erstellt von FrankieT19.",
+    "Creado por FrankieT19.",
+    "Criado por FrankieT19.",
+    "Creato da FrankieT19.",
+    "Gemaakt door FrankieT19.",
+    "Created by FrankieT19."
+  ],
+  [
+    "Originally a Nintendo DS-inspired",
+    "Interface GBA inspirée de la DS,",
+    "Vom Nintendo DS inspirierte",
+    "Interfaz GBA inspirada en DS,",
+    "Interface GBA inspirada na DS,",
+    "Interfaccia GBA ispirata al DS,",
+    "Een op Nintendo DS geïnspireerde",
+    "Originally a Nintendo DS-inspired"
+  ],
+  [
+    "GBA frontend for EZ-FLASH Omega",
+    "pour EZ-FLASH Omega",
+    "GBA-Oberfläche für EZ-FLASH Omega",
+    "para EZ-FLASH Omega",
+    "para EZ-FLASH Omega",
+    "per EZ-FLASH Omega",
+    "GBA-interface voor EZ-FLASH Omega",
+    "GBA frontend for EZ-FLASH Omega"
+  ],
+  [
+    "and Omega Definitive Edition.",
+    "et Omega Definitive Edition.",
+    "und Omega Definitive Edition.",
+    "y Omega Definitive Edition.",
+    "e Omega Definitive Edition.",
+    "e Omega Definitive Edition.",
+    "en Omega Definitive Edition.",
+    "and Omega Definitive Edition."
+  ],
+  [
+    "Free and open source.",
+    "Libre et open source.",
+    "Kostenlos und quelloffen.",
+    "Gratis y de código abierto.",
+    "Gratuito e de código aberto.",
+    "Gratuito e open source.",
+    "Gratis en open source.",
+    "Free and open source."
+  ],
+  [
+    "RG SP port v1.0",
+    "Portage RG SP v1.0",
+    "RG-SP-Portierung v1.0",
+    "Versión RG SP v1.0",
+    "Versão RG SP v1.0",
+    "Versione RG SP v1.0",
+    "RG SP-versie v1.0",
+    "RG SP port v1.0"
+  ],
+  [
+    "Credits",
+    "Crédits",
+    "Mitwirkende",
+    "Créditos",
+    "Créditos",
+    "Crediti",
+    "Credits",
+    "Credits"
+  ],
+  [
+    "LCD grid: based on lcd1x",
+    "Grille LCD basée sur lcd1x",
+    "LCD-Raster: basiert auf lcd1x",
+    "Rejilla LCD basada en lcd1x",
+    "Grelha LCD baseada em lcd1x",
+    "Griglia LCD basata su lcd1x",
+    "LCD-raster: gebaseerd op lcd1x",
+    "LCD grid: based on lcd1x"
+  ]
+]

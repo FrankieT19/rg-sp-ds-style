@@ -1,0 +1,13 @@
+/* Signatures from the user-captured RG SP stock dmenu. Refuse guessed register layouts. */
+static const unsigned char stock_audio_signature[]={63,40,4,208,63,34,1,33,0,32,33,240,221,255,2,33,0,32,33,240,177,255,67,28,6,208,31,40,4,208,31,34,2,33,0,32,33,240,208,255,1,34,3,33,0,32,33,240,203,255,1,34,5,33,0,32,33,240,198,255,1,34,8,33,0,32,33,240,193,255};
+static inline int stock_audio_known(void){unsigned char data[sizeof stock_audio_signature];FILE*f=fopen("/mnt/vendor/bin/dmenu.bin","rb");if(!f)return 0;int ok=!fseek(f,15144,SEEK_SET)&&fread(data,1,sizeof data,f)==sizeof data&&!memcmp(data,stock_audio_signature,sizeof data);fclose(f);return ok;}
+static const unsigned char stock_sleep_signature[]={48,181,5,70,13,76,193,176,13,73,162,104,13,72,253,247,114,236,13,75,0,34,1,32,160,96,154,96,11,74,13,177,11,73,0,224,11,73,104,70,253,247,240,238,104,70,253,247,200,237,21,240,127,248,65,176};
+static inline int stock_sleep_known(void){unsigned char data[sizeof stock_sleep_signature];FILE*f=fopen("/mnt/vendor/bin/dmenu.bin","rb");if(!f)return 0;int ok=!fseek(f,17160,SEEK_SET)&&fread(data,1,sizeof data,f)==sizeof data&&!memcmp(data,stock_sleep_signature,sizeof data);fclose(f);return ok;}
+static const unsigned char stock_idle_signature[]={255,105,3,47,25,216,107,74,2,235,135,12,220,248,168,0,152,177,105,75,179,249,136,21,121,185,99,79,122,107,171,26,131,66,10,217,101,72,254,247,86,237,1,32,0,240,158,255,254,247,104,237};
+static inline int stock_idle_known(void){unsigned char data[sizeof stock_idle_signature];FILE*f=fopen("/mnt/vendor/bin/dmenu.bin","rb");if(!f)return 0;int ok=!fseek(f,13212,SEEK_SET)&&fread(data,1,sizeof data,f)==sizeof data&&!memcmp(data,stock_idle_signature,sizeof data);fclose(f);return ok;}
+
+static const unsigned char stock_settings_signature[]={16,181,19,73,19,72,232,247,66,238,4,70,32,185,17,73,17,72,232,247,48,238,15,224,3,70,1,33,136,34,15,72,232,247,12,239,136,40,1,70,9,208,136,34,12,72,232,247};
+static inline int stock_settings_known(void){unsigned char b[sizeof stock_settings_signature];FILE*f=fopen("/mnt/vendor/bin/dmenu.bin","rb");if(!f)return 0;int ok=!fseek(f,102280,SEEK_SET)&&fread(b,1,sizeof b,f)==sizeof b&&!memcmp(b,stock_settings_signature,sizeof b);fclose(f);return ok;}
+
+static const unsigned char stock_sleep_policy_signature[]={212,248,132,0,0,240,1,0,1,240,82,254,212,248,132,112,7,240,16,0,1,240,104,254};
+static inline int stock_sleep_policy_known(void){unsigned char b[sizeof stock_sleep_policy_signature];FILE*f=fopen("/mnt/vendor/bin/dmenu.bin","rb");if(!f)return 0;int ok=!fseek(f,9164,SEEK_SET)&&fread(b,1,sizeof b,f)==sizeof b&&!memcmp(b,stock_sleep_policy_signature,sizeof b);fclose(f);return ok;}
