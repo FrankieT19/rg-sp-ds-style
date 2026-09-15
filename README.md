@@ -10,11 +10,11 @@ DS Style uses your installed stock emulators, core choices, settings and saves.
 
 1. Download **DS-Style-RG-SP-v1.0.zip** from [Releases](https://github.com/FrankieT19/rg-sp-ds-style/releases/latest).
 2. Extract the ZIP. Copy its **Roms** folder to your RG SP SD card's root, merging with your existing Roms folder.
-3. Optionally set your username by editing username.txt: **Roms → APPS → DS Style → username.txt**
+3. Optionally set your username by editing **Roms → APPS → DS Style → username.txt**
 4. Safely eject the card, put it back in the RG SP and boot stock OS.
-5. Set the stock OS's theme to Style 1 or Style 2, not MU Style: **Settings → Icon Settings → Style 1 / Style 2 / Return to old style**
+5. For Autoboot to work set the stock OS's theme to Style 1 or Style 2 under **Settings → Icon Settings → Style 1 / Style 2 / Return to old style**
 6. Open **Apps → DS Style**.
-7. Optionally enable **Settings → Startup → Autoboot** to use as your launcher.
+7. Optionally enable **Settings → Startup → Autoboot** to use as your default launcher.
 
 Install on either SD1 or SD2. Games and apps on both cards are available. Autoboot needs SD1 present even when DS Style is installed on SD2.
 
