@@ -1,10 +1,10 @@
 # Stock integration and recovery
 
-DS Style is a frontend on top of the new RG SP stock OS, not a replacement firmware or an emulator package. It reads the installed stock launch tables for RetroArch and Game Rooms. System launch-mode choices are made with START on the Systems list. Stock remains the place to change cores and advanced emulator settings.
+DS Style is a frontend on top of the RG SP stock OS, not a replacement firmware or an emulator package. It reads the installed stock launch tables for RetroArch and Game Rooms. System launch-mode choices are made with START on the Systems list.
 
-The launcher uses the stock game, thumbnail, favourites and recent-history locations. It retains its own interface preferences under `DSStyle/state`. Do not distribute your state folder or captured launch profiles: those are installation-specific. A small rolling launch log helps diagnose failures, but the normal package does not contain stock inspection or recording apps.
+The launcher uses the stock game, thumbnail, favourites and recent-history locations. It retains its own interface preferences under `DSStyle/state`.
 
-Volume uses twenty 5% interface steps. Stock's ten-step setting receives the nearest supported level, with halfway values rounding upwards. UI feedback has its own gain curve; this does not change a game's RetroArch audio configuration. Brightness, suspend/wake and display handoff use the stock hardware interfaces.
+Suspend/wake and display handoff use the stock hardware interfaces.
 
 ## Autoboot
 
@@ -14,7 +14,7 @@ Disabling Autoboot checks that the installed shim is still ours and restores the
 
 ## Recovering access
 
-- To bypass automatic game launching, hold physical **START** during startup. This reaches DS Style instead of the last game or quick-start game.
+- To bypass automatic game launching, hold physical **START** during startup. This reaches DS Style instead of the last game.
 - To skip the frontend completely, shut down, connect the installation card to a PC and create an empty file `Roms/APPS/DSStyle/DISABLED` with no extension. Reinsert the card and boot. The shim skips this installation and opens stock.
 - Keep DS Style's files present. Open it manually from stock Apps and switch Startup → Autoboot off before uninstalling.
 - If the frontend itself cannot run, download [DS Style Disable.sh](../tools/developer-apps/DS%20Style%20Disable.sh), place it beside `DS Style.sh` in `Roms/APPS` and run it from stock Apps. It invokes the existing boot manager's restore operation. Remove the recovery helper afterwards.
@@ -23,4 +23,4 @@ Do not manually remove or replace the backup when the boot manager reports an un
 
 ## Compatibility limits
 
-Stock and stock-mod firmware layouts can change. Unknown emulator layouts fail with an explanation rather than silently selecting a guessed core. Return to Stock OS to use an unsupported route. External-controller hotplug and HDMI need further device coverage; please report firmware, display/controller and reproducible steps.
+Stock and stock-mod firmware layouts can change. Unknown emulator layouts fail with an explanation rather than silently selecting a guessed core. Return to Stock OS to use an unsupported route.
