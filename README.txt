@@ -29,6 +29,13 @@ DOWNLOAD AND INSTALL
 Install on either SD1 or SD2. Games and apps on both cards are available.
 Autoboot needs SD1 present even when DS Style is installed on SD2.
 
+Autoboot files: Enabling Autoboot creates dmenu.bin and a .dsstyle-v1-boot
+recovery folder in the root of SD1. Keep these while Autoboot is enabled. Each
+time you turn Autoboot off, DS Style restores the previous boot setup and
+keeps its recovery folder as .dsstyle-v1-restored-…. These historical folders
+are safe to delete after Autoboot has been successfully disabled; repeated
+toggling creates multiple folders.
+
 For settings explanations select a setting in DS Style and press X.
 
 DS Style uses the same game artwork as stock OS. Install it as usual in each

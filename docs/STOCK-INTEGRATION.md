@@ -10,7 +10,7 @@ Suspend/wake and display handoff use the stock hardware interfaces.
 
 Enable it through Startup settings. The launcher backs up the prior regular `/mnt/mmc/dmenu.bin` override, if any, into `/mnt/mmc/.dsstyle-v1-boot/`, then installs its small boot shim. This location is on **SD1's ROM partition**, even when DS Style itself lives on SD2. Existing symlink overrides or incompatible stock menu styles are refused. Follow the displayed error instead of manually overwriting them.
 
-Disabling Autoboot checks that the installed shim is still ours and restores the prior file or its prior absence. The backup is then archived under `.dsstyle-v1-restored-*`. **System → Stock OS** returns to stock without disabling the next boot's autoboot setting.
+Disabling Autoboot checks that the installed shim is still ours and restores the prior file or its prior absence. The backup is then archived under `.dsstyle-v1-restored-*`. A separate archive is created every time Autoboot is successfully disabled, so repeated toggling leaves multiple folders in SD1's root. These archives are retained as recovery records; they are no longer used by DS Style and are safe to delete after the successful restore. Keep the active `.dsstyle-v1-boot` folder and `dmenu.bin` while Autoboot is enabled. **System → Stock OS** returns to stock without disabling the next boot's autoboot setting.
 
 ## Recovering access
 
