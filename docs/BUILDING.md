@@ -11,7 +11,7 @@ python tools/package.py
 
 The build cross-compiles the launcher and stock helpers into `device/Roms/APPS/DSStyle/bin`. It also builds a Windows preview and host tests in `preview`. The device build is static; a few stock display/brightness interfaces need 32-bit helpers while the frontend is AArch64. The ZIP is written to `dist/DS-Style-RG-SP-v1.0.zip`. Compiler caches, preview binaries, tests and personal state are not packaged.
 
-Edit `README.md` for user instructions. Packaging regenerates both copies of `README.txt` from it; do not edit those copies separately. To refresh them without packaging, run `python tools/sync_readme.py`.
+Edit `README.md` for user instructions. Packaging regenerates both copies of `README.txt` from it, omitting repository-only building and contributing guidance; do not edit those copies separately. To refresh them without packaging, run `python tools/sync_readme.py`.
 
 ## Checks
 
@@ -22,7 +22,7 @@ python tests/test_v1.py --shell 'C:/Program Files/Git/bin/sh.exe' --preview "$PW
 python tools/check_defaults.py --zig 'C:/path/to/zig.exe'
 ```
 
-The source tree retains regression tests from private development; their filenames are historical and are not public version numbers. C assertion tests are compiled with `-UNDEBUG`. Use the matching Python harness for tests which need fixtures. Tests use synthetic files, not playable commercial games.
+The tests cover browsing, settings, stock handoff and rendering. C assertion tests are compiled with `-UNDEBUG`. Use the matching Python harness for tests which need fixtures. Tests use sample files, not playable commercial games.
 
 To view the interface without a handheld:
 

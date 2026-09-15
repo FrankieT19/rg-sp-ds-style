@@ -7,6 +7,11 @@ ROOT = Path(__file__).resolve().parents[1]
 REPO = 'https://github.com/FrankieT19/rg-sp-ds-style'
 
 def render_readme(markdown):
+    # Share installation text, but omit repository-only guidance from the bundle.
+    markdown = markdown.replace('## Source, credits and contributing', '## Credits')
+    markdown = re.sub(r'(?m)^This repository includes[^\n]*\n\n', '', markdown)
+    markdown = markdown.replace('See [CREDITS.md](CREDITS.md).', 'Notices are in DSStyle/licenses.')
+    markdown = markdown.replace('[Apache-2.0](LICENSE)', 'Apache-2.0')
     def link(match):
         title, target = match.groups()
         if not target.startswith(('https://', 'http://')):
@@ -32,7 +37,7 @@ def render_readme(markdown):
     return ('DS Style for RG SP - v1.0\n'
             '========================\n\n'
             'Thanks for downloading DS Style for RG SP!\n\n' + body +
-            '\n\nRepository: ' + REPO + '\n\nEnjoy DS Style!\n')
+            '\n\nUpdates and support: ' + REPO + '\n\nEnjoy DS Style!\n')
 
 def sync_readme():
     text = render_readme((ROOT/'README.md').read_text(encoding='utf-8'))

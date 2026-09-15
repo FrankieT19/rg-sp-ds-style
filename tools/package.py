@@ -27,7 +27,7 @@ for p in sorted(device.rglob('*')):
         assert b'\r' not in p.read_bytes(), f'Shell script needs LF: {rel}'
     files.append((p, rel.as_posix()))
 files.append((root/'README.txt', 'README.txt'))
-files.append((root/'LICENSE', 'LICENSE.txt'))
+files.append((root/'LICENSE', 'Roms/APPS/DSStyle/LICENSE.txt'))
 dist = root/'dist'
 dist.mkdir(exist_ok=True)
 out = dist/'DS-Style-RG-SP-v1.0.zip'

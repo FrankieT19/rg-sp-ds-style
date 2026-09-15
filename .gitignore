@@ -7,3 +7,4 @@ device/Roms/APPS/DSStyle/DISABLED
 __pycache__/
 *.pyc
 test-results*.json
+docs/*-test-results.json

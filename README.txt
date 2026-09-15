@@ -82,22 +82,14 @@ Style. Keep the installation present, launch it manually from stock Apps and
 disable Autoboot before removing it. More on stock integration and recovery
 (https://github.com/FrankieT19/rg-sp-ds-style/blob/main/docs/STOCK-INTEGRATION.md).
 
-SOURCE, CREDITS AND CONTRIBUTING
-
-This repository includes the source and editable assets. See building and
-testing
-(https://github.com/FrankieT19/rg-sp-ds-style/blob/main/docs/BUILDING.md) and
-contributing
-(https://github.com/FrankieT19/rg-sp-ds-style/blob/main/CONTRIBUTING.md).
+CREDITS
 
 Filter credits: Gigaherz and jdgleaver (lcd1x inspiration), and Matt Akins
-(Pixel Transparency). See CREDITS.md
-(https://github.com/FrankieT19/rg-sp-ds-style/blob/main/CREDITS.md).
+(Pixel Transparency). Notices are in DSStyle/licenses.
 
-Project code is Apache-2.0
-(https://github.com/FrankieT19/rg-sp-ds-style/blob/main/LICENSE); third-party
-components and artwork retain their own licences.
+Project code is Apache-2.0; third-party components and artwork retain their
+own licences.
 
-Repository: https://github.com/FrankieT19/rg-sp-ds-style
+Updates and support: https://github.com/FrankieT19/rg-sp-ds-style
 
 Enjoy DS Style!
