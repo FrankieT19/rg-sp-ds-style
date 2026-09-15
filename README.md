@@ -40,7 +40,7 @@ Inside `Roms/APPS/DSStyle`:
 
 ## Update or uninstall
 
-**Update:** back up your existing DS Style folder. Merge the new package, keeping `state`, your configuration, Folder Art, username and any assets you edited. If an update changes an asset you customised, compare it with your backup rather than losing your edits.
+**Update:** Before updating, back up your DSStyle folder. Copy the new package over your installation, then restore any artwork, sounds or username file you customised from your backup—these files will be overwritten during the update. Your saved settings in the state folder are retained automatically.
 
 **Uninstall:** first switch **Startup → Autoboot → Off**. Then use **System → Stock OS**, shut down safely and remove `Roms/APPS/DS Style.sh` and `Roms/APPS/DSStyle` from the card. Turning Autoboot off restores the previous boot override. Your ROMs, emulators and saves stay in their stock locations.
 
