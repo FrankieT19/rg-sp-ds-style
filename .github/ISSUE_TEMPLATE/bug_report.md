@@ -7,7 +7,7 @@ assignees: ''
 ---
 
 **Device and firmware**
-New RG SP; stock/mod version; SD1/SD2 installation; DS Style version:
+RG SP; stock/mod version; SD1/SD2 installation; DS Style version:
 
 **What happened, and what did you expect?**
 

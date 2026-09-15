@@ -1,0 +1,13 @@
+Filter credits
+==============
+
+LCD grid: inspired by lcd1x, by Gigaherz and jdgleaver.
+https://github.com/libretro/slang-shaders/blob/master/handheld/shaders/lcd1x.slang
+
+Pixel Transparency: adapted from Pixel Transparency v2.2 by Matt Akins
+(mattakins), copyright 2025-2026.
+https://github.com/libretro/slang-shaders/tree/master/handheld/shaders/pixel_transparency
+
+The effects run in the launcher. Pixel Transparency uses a fixed backing,
+reduced colour cast and an unblurred shadow with a one-pixel offset.
+No RetroArch shader settings are changed.

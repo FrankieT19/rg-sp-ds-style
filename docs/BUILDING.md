@@ -11,6 +11,8 @@ python tools/package.py
 
 The build cross-compiles the launcher and stock helpers into `device/Roms/APPS/DSStyle/bin`. It also builds a Windows preview and host tests in `preview`. The device build is static; a few stock display/brightness interfaces need 32-bit helpers while the frontend is AArch64. The ZIP is written to `dist/DS-Style-RG-SP-v1.0.zip`. Compiler caches, preview binaries, tests and personal state are not packaged.
 
+Edit `README.md` for user instructions. Packaging regenerates both copies of `README.txt` from it; do not edit those copies separately. To refresh them without packaging, run `python tools/sync_readme.py`.
+
 ## Checks
 
 With Git for Windows installed (its `sh.exe` supplies the shell used by integration fixtures):

@@ -1,4 +1,4 @@
-/* Imported original geometry and palette; see fidelity-provenance.json. */
+/* Original DS Style geometry and palette. */
 #define LAUNCHER_VERT_SIDE_CUSTOM_ENABLED 0
 #define LAUNCHER_HORZ_SIDE_CUSTOM_ENABLED 0
 #define LAUNCHER_HORZ_NAV_MODE 0

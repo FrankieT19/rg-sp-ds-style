@@ -1,5 +1,5 @@
 /* Snake rules and geometry adapted from FrankieT19's DS Style v7.4,
- * ezkernelnew.c Launcher_Snake*; Apache-2.0, see DS-Style-source-LICENSE.txt.
+ * ezkernelnew.c Launcher_Snake*; Apache-2.0, see LICENSE.
  * Replaces GBA VBlank/video calls with the existing Linux UI, unchanged board. */
 #define SNAKE_RGB(r,g,b) ((((r)<<3)|((r)>>2))<<16|(((g)<<3)|((g)>>2))<<8|((b)<<3)|((b)>>2))
 static int about_page=-1,snake_active,snake_over,snake_dx=1,snake_dy;

@@ -10,7 +10,7 @@ DS Style uses your installed stock emulators, core choices, settings and saves.
 
 1. Download **DS-Style-RG-SP-v1.0.zip** from [Releases](https://github.com/FrankieT19/rg-sp-ds-style/releases/latest).
 2. Extract the ZIP. Copy its **Roms** folder to your RG SP SD card's root, merging with your existing Roms folder.
-3. Optionally set your username by editing **Roms → APPS → DS Style → username.txt**
+3. Optionally set your username by editing **Roms → APPS → DSStyle → username.txt**
 4. Safely eject the card, put it back in the RG SP and boot stock OS.
 5. For Autoboot to work set the stock OS's theme to Style 1 or Style 2 under **Settings → Icon Settings → Style 1 / Style 2 / Return to old style**
 6. Open **Apps → DS Style**.
@@ -54,6 +54,6 @@ If an autoboot installation cannot open, create an empty file named **DISABLED**
 
 This repository includes the source and editable assets. See [building and testing](docs/BUILDING.md) and [contributing](CONTRIBUTING.md).
 
-DS Style is by **FrankieT19**. Its GBA roots are the [Omega](https://github.com/FrankieT19/omega-ds-style-kernel) and [Omega Definitive Edition](https://github.com/FrankieT19/omega-de-ds-style-kernel) projects. Filter acknowledgements include Gigaherz and jdgleaver (lcd1x inspiration), and Matt Akins (Pixel Transparency). Full artwork, library and runtime credits are in [CREDITS.md](CREDITS.md) and the bundled notices.
+Filter credits: **Gigaherz and jdgleaver** (lcd1x inspiration), and **Matt Akins** (Pixel Transparency). See [CREDITS.md](CREDITS.md).
 
 Project code is [Apache-2.0](LICENSE); third-party components and artwork retain their own licences.

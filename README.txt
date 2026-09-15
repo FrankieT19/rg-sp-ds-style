@@ -1,64 +1,103 @@
-========================================
-       DS Style for RG SP - v1.0
-========================================
+DS Style for RG SP - v1.0
+========================
 
 Thanks for downloading DS Style for RG SP!
 
-Originally a Nintendo DS-inspired GBA frontend for EZ-FLASH Omega
-and Omega Definitive Edition, DS Style now brings the
-flashcart feel to the Anbernic RG SP.
+DS Style is a Nintendo DS-inspired launcher originally made for the GBA. This
+port brings the feel of original hardware to the Anbernic RG SP.
 
-This launcher sits over stock OS and uses its emulators, settings
-and saves.
+DS Style uses your installed stock emulators, core choices, settings and
+saves.
 
 For the RG SP running stock OS.
-No games, BIOS files, emulator cores or firmware are included.
 
-INSTALL
-1. Shut down your handheld and connect its ROM card to your PC.
-2. Copy the extracted Roms folder to the card root, merging folders.
-3. Safely eject, reinsert the card and boot the handheld.
-4. Open Apps > DS Style in stock OS.
+DOWNLOAD AND INSTALL
 
-Install on either SD1 or SD2; one copy is enough for both cards.
-To start automatically, use Settings > Startup > Autoboot.
-Autoboot also requires SD1. Follow any stock menu-style prompt.
+1. Download DS-Style-RG-SP-v1.0.zip from Releases
+   (https://github.com/FrankieT19/rg-sp-ds-style/releases/latest).
+2. Extract the ZIP. Copy its Roms folder to your RG SP SD card's root, merging
+   with your existing Roms folder.
+3. Optionally set your username by editing Roms > APPS > DSStyle >
+   username.txt
+4. Safely eject the card, put it back in the RG SP and boot stock OS.
+5. For Autoboot to work set the stock OS's theme to Style 1 or Style 2 under
+   Settings > Icon Settings > Style 1 / Style 2 / Return to old style
+6. Open Apps > DS Style.
+7. Optionally enable Settings > Startup > Autoboot to use as your default
+   launcher.
 
-UPDATE
-Back up your DSStyle folder, then merge the new package. Keep your
-state folder, config, Folder Art, username.txt and edited assets.
-The release does not include personal preferences or game history.
+Install on either SD1 or SD2. Games and apps on both cards are available.
+Autoboot needs SD1 present even when DS Style is installed on SD2.
 
-UNINSTALL
-1. Turn Startup > Autoboot OFF first. This restores the prior boot
-   override; do not delete an autoboot installation before doing so.
-2. Choose System > Stock OS, then shut down safely.
-3. On the card, delete Roms/APPS/DS Style.sh and Roms/APPS/DSStyle.
-Your stock ROMs, emulators and saves remain in their own locations.
+For settings explanations select a setting in DS Style and press X.
 
-RECOVERY
-Hold physical START during boot to bypass automatic game launching.
-To skip DS Style altogether, create an empty file called DISABLED
-(no extension) inside Roms/APPS/DSStyle. Then boot stock, open
-DS Style manually and turn Autoboot off before uninstalling.
-If DS Style cannot open manually, see the repository recovery guide.
+DS Style uses the same game artwork as stock OS. Install it as usual in each
+system's Imgs folder (for example, Roms/GBA/Imgs), using filenames that match
+your games. To automate artwork downloads, you can use Skraper, which uses the
+ScreenScraper database - configure it to save images in each system's Imgs
+folder with filenames matching your games.
+
+FEATURES
+
+- A Nintendo DS style theme at the GBA's resolution for a retro feel.
+- List, List + Art, horizontal and vertical carousel views.
+- Colour themes, dark mode, artwork preferences.
+- Optional LCD grid and Pixel Transparency filters for an authentic feel.
+- Folder search; press X while browsing.
+- Shared stock favourites and recent history.
+- Stock RetroArch and Game Rooms launch routes; change a system's route with
+  START on the Systems list. Core selections are read from stock when
+  launching.
+- Seven language choices: English, French, German, Spanish, Portuguese,
+  Italian and Dutch.
+- A secret Snake game tucked away in About.
 
 CUSTOMISE
-Folder Art: system pictures such as GBA.png or Game Boy Advance.jpg.
-assets: editable graphics, icons, themes and sounds.
-username.txt: your title-bar name.
-state: created on first use; keep this when updating.
-bin, scripts and config: required components; keep these present.
 
-CREDITS
-DS Style by FrankieT19. GBA roots: EZ-FLASH and Sterophonick's
-SimpleLight. LCD grid inspiration: Gigaherz and jdgleaver.
-Pixel Transparency: Matt Akins. Third-party artwork, library and
-runtime credits and licences are included in DSStyle/licenses.
-Project code: Apache-2.0; third-party materials retain their licences.
-An independent project, not endorsed by the hardware makers.
+Inside Roms/APPS/DSStyle:
 
-Source, full instructions, controls, credits and issue reports:
-https://github.com/FrankieT19/rg-sp-ds-style
+- Folder Art/: For alternative system folder artwork add GBA.png, Game Boy
+  Advance.jpg, PS.png, etc. Matching is case-insensitive; PNG, JPEG and BMP
+  are supported.
+- assets/: editable backgrounds, themes, sounds and icons. Keep the original
+  image dimensions; list icons use a 16 × 14 canvas with transparent spacing.
+  WAV files must be 48 kHz, stereo, 16-bit PCM.
+- username.txt: change the name shown in the title bar.
+
+UPDATE OR UNINSTALL
+
+Update: Before updating, back up your DSStyle folder. Copy the new package
+over your installation, then restore any artwork, sounds or username file you
+customised from your backup - these files will be overwritten during the
+update. Your saved settings in the state folder are retained automatically.
+
+Uninstall: first switch Startup > Autoboot > Off. Then use System > Stock OS,
+shut down safely and remove Roms/APPS/DS Style.sh and Roms/APPS/DSStyle from
+the card. Turning Autoboot off restores the previous boot override. Your ROMs,
+emulators and saves stay in their stock locations.
+
+If an autoboot installation cannot open, create an empty file named DISABLED
+(no extension) inside Roms/APPS/DSStyle on the card. The next boot skips DS
+Style. Keep the installation present, launch it manually from stock Apps and
+disable Autoboot before removing it. More on stock integration and recovery
+(https://github.com/FrankieT19/rg-sp-ds-style/blob/main/docs/STOCK-INTEGRATION.md).
+
+SOURCE, CREDITS AND CONTRIBUTING
+
+This repository includes the source and editable assets. See building and
+testing
+(https://github.com/FrankieT19/rg-sp-ds-style/blob/main/docs/BUILDING.md) and
+contributing
+(https://github.com/FrankieT19/rg-sp-ds-style/blob/main/CONTRIBUTING.md).
+
+Filter credits: Gigaherz and jdgleaver (lcd1x inspiration), and Matt Akins
+(Pixel Transparency). See CREDITS.md
+(https://github.com/FrankieT19/rg-sp-ds-style/blob/main/CREDITS.md).
+
+Project code is Apache-2.0
+(https://github.com/FrankieT19/rg-sp-ds-style/blob/main/LICENSE); third-party
+components and artwork retain their own licences.
+
+Repository: https://github.com/FrankieT19/rg-sp-ds-style
 
 Enjoy DS Style!
