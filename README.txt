@@ -5,16 +5,13 @@
 Thanks for downloading DS Style for RG SP!
 
 Originally a Nintendo DS-inspired GBA frontend for EZ-FLASH Omega
-and Omega Definitive Edition, DS Style now brings that familiar
-flashcart feel to the new Anbernic RG SP's wider game library.
-What if your GBA could play all these consoles?
+and Omega Definitive Edition, DS Style now brings the
+flashcart feel to the Anbernic RG SP.
 
 This launcher sits over stock OS and uses its emulators, settings
-and saves. Enjoy the familiar themes, views and sounds alongside
-search, shared favourites/history, startup choices and more.
-There is even a secret Snake game tucked away in About.
+and saves.
 
-For the NEW RG SP running stock OS. NOT for RG35XXSP.
+For the RG SP running stock OS.
 No games, BIOS files, emulator cores or firmware are included.
 
 INSTALL
