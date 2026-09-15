@@ -20,7 +20,7 @@ Install on either SD1 or SD2. Games and apps on both cards are available. Autobo
 
 ## Features
 
-- A DS style theme at the GBA's resolution for a retro feel.
+- A Nintendo DS style theme at the GBA's resolution for a retro feel.
 - List, List + Art, horizontal and vertical carousel views.
 - Colour themes, dark mode, artwork preferences.
 - Optional LCD grid and Pixel Transparency filters for an authentic feel.
