@@ -18,6 +18,8 @@ DS Style uses your installed stock emulators, core choices, settings and saves.
 
 Install on either SD1 or SD2. Games and apps on both cards are available. Autoboot needs SD1 present even when DS Style is installed on SD2.
 
+For settings explanations select a setting in DS Style and press X.
+
 DS Style uses the same game artwork as stock OS. Install it as usual in each system’s Imgs folder (for example, **Roms/GBA/Imgs**), using filenames that match your games. To automate artwork downloads, you can use Skraper, which uses the ScreenScraper database—configure it to save images in each system’s Imgs folder with filenames matching your games.
 
 ## Features
