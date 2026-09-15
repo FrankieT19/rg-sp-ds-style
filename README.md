@@ -4,7 +4,7 @@ DS Style is a Nintendo DS-inspired launcher originally made for the GBA. This po
 
 DS Style uses your installed stock emulators, core choices, settings and saves.
 
-**For the RG SP running stock OS.
+*For the RG SP running stock OS.*
 
 ## Download and install
 
