@@ -4,7 +4,7 @@ BASE=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd) || exit 1
 mkdir -p "$BASE/state" || exit 1
 LOG="$BASE/state/launch.log"
 if [ -f "$LOG" ]; then cp "$LOG" "$BASE/state/launch-previous.log"; fi
-{ echo 'DS Style v1.0 shell entry'; date; printf 'Base: %s\nMode: %s\n' "$BASE" "${1:-manual}"; } > "$LOG"
+{ echo 'DS Style v1.1 shell entry'; date; printf 'Base: %s\nMode: %s\n' "$BASE" "${1:-manual}"; } > "$LOG"
 ROOT=${DS_STYLE_TEST_ROOT:-}
 if [ -n "$ROOT" ]; then ROOT=$(CDPATH= cd -- "$ROOT" && pwd) || exit 1; fi
 STOCK_SESSION="$ROOT/tmp/dsstyle-stock-session"
