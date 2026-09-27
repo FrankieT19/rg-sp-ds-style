@@ -29,16 +29,28 @@ with tempfile.TemporaryDirectory() as tmp:
  checks.append('All 54 installed RetroArch-menu systems resolve their installed default and stock dispatcher')
  expected=['snes9x_libretro.so','snes9x2002_libretro.so','snes9x2005_libretro.so','snes9x2005_plus_libretro.so','snes9x2010_libretro.so']
  for choice,core in enumerate(expected):
-  config.write_text(f"Version=1\nSFC:Game ' ; $.sfc:1:1:{choice}\n")
+  config.write_text(f"Version=1\nSFC:Game ' ; $.sfc:1:0:{choice}\n")
   r=plan();assert r.returncode==0 and 'Core: '+core+'\n' in r.stdout,r
  checks.append('Every SNES per-game choice is reread between launches; installed defaults and all four alternatives match stock')
- for text in ["Version=1\nSFC:Game ' ; $.sfc:0:1:3\n","Version=1\nSFC:Game ' ; $.sfc:1:0:3\n","Version=1\nSFC:game ' ; $.sfc:1:1:3\n","Version=2\nSFC:Game ' ; $.sfc:1:1:3\n"]:
+ for text in ["Version=1\nSFC:Game ' ; $.sfc:0:0:3\n","Version=1\nSFC:Game ' ; $.sfc:1:1:3\n","Version=1\nSFC:game ' ; $.sfc:1:0:3\n","Version=2\nSFC:Game ' ; $.sfc:1:0:3\n"]:
   config.write_text(text);assert 'Core: snes9x_libretro.so\n' in plan().stdout
- checks.append('Stock card, RetroArch flag, exact filename and version matching are respected')
- config.write_text("Version=1\nother directory:Game ' ; $.sfc:1:1:3\n")
+ checks.append('Stock card, subfolder flag, exact filename and version matching are respected')
+ config.write_text("Version=1\nother directory:Game ' ; $.sfc:1:0:3\n")
  assert 'Core: snes9x2005_plus_libretro.so\n' in plan().stdout
  checks.append('Directory field is ignored exactly as in stock basename lookup')
- config.write_text("Version=1\nSFC:Game ' ; $.sfc:1:1:999\n");assert plan().returncode==20
+ # Stock's normal browser saves flag 0; its subfolder browser saves flag 1.
+ # Equal basenames on both cards and in both browser contexts must stay distinct.
+ gba=['mgba_libretro.so','gpsp_libretro.so','vbam_libretro.so','vba_next_libretro.so']
+ for card,mount in enumerate(['mmc','sdcard']):
+  for nested in [0,1]:
+   name=('Adventure/Subfolder/' if nested else '')+'Example.gba'
+   for choice,core in enumerate(gba):
+    rows=[f'GBA:Example.gba:{c}:{n}:{choice if (c,n)==(card,nested) else (choice+1)%4}' for c in [0,1] for n in [0,1]]
+    config.write_text('Version=1\n'+'\n'.join(rows)+'\n')
+    r=plan('GBA',mount,name)
+    assert r.returncode==0 and 'Core: '+core+'\n' in r.stdout,(mount,nested,choice,r.stdout,r.stderr)
+ checks.append('All four GBA core choices match on TF1 and TF2, at system root and in subfolders, without cross-matching duplicate basenames')
+ config.write_text("Version=1\nSFC:Game ' ; $.sfc:1:0:999\n");assert plan().returncode==20
  config.unlink();assert plan('UNKNOWN').returncode==20
  changed=bytearray(binary);changed[0x21cc8]^=1;menu.write_bytes(changed);assert plan().returncode==20;menu.write_bytes(binary)
  checks.append('Invalid saved choice, unknown system and unknown firmware ABI fail without guessing or retrying')

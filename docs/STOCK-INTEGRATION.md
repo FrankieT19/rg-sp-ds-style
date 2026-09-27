@@ -4,6 +4,8 @@ DS Style is a frontend on top of the RG SP stock OS, not a replacement firmware 
 
 The launcher uses the stock game, thumbnail, favourites and recent-history locations. It retains its own interface preferences under `DSStyle/state`.
 
+RetroArch core selections are read from stock's `/mnt/data/misc/.setcore` on each launch. Its records are `directory:filename:card:subfolder:choice` after a `Version=1` header. Card is `0` for TF1 and `1` for TF2; subfolder is `0` directly inside `Roms/<system>` and `1` below it. This field is distinct from the RetroArch/Game Rooms flag in stock favourites/history. The verified stock lookup matches filename, card and subfolder context, and ignores the directory field.
+
 Suspend/wake and display handoff use the stock hardware interfaces.
 
 ## Autoboot

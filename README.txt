@@ -1,4 +1,4 @@
-DS Style for RG SP - v1.0
+DS Style for RG SP - v1.1
 ========================
 
 Thanks for downloading DS Style for RG SP!
@@ -13,7 +13,7 @@ For the RG SP running stock OS.
 
 DOWNLOAD AND INSTALL
 
-1. Download DS-Style-RG-SP-v1.0.zip from Releases
+1. Download DS-Style-RG-SP-v1.1.zip from Releases
    (https://github.com/FrankieT19/rg-sp-ds-style/releases/latest).
 2. Extract the ZIP. Copy its Roms folder to your RG SP SD card's root, merging
    with your existing Roms folder.

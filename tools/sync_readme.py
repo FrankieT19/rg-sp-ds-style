@@ -34,7 +34,7 @@ def render_readme(markdown):
             indent = '   ' if re.match(r'^\d+\. ', line) else '  ' if line.startswith('- ') else ''
             lines.extend(textwrap.wrap(line, width=78, subsequent_indent=indent, break_long_words=False, break_on_hyphens=False))
     body = re.sub(r'\n{3,}', '\n\n', '\n'.join(lines)).strip()
-    return ('DS Style for RG SP - v1.0\n'
+    return ('DS Style for RG SP - v1.1\n'
             '========================\n\n'
             'Thanks for downloading DS Style for RG SP!\n\n' + body +
             '\n\nUpdates and support: ' + REPO + '\n\nEnjoy DS Style!\n')

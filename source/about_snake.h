@@ -197,7 +197,7 @@ static void about_draw(void){
  blit(ui_background(1),0,0,W,H);
  if(snake_active){about_header("Snake",NULL);Launcher_DrawSnakeBoard();if(snake_over)Launcher_DrawSnakeGameOver();return;}
  static const char*lines[][9]={
- {"DS Style", "Created by FrankieT19.", "Originally a Nintendo DS-inspired", "GBA frontend for EZ-FLASH Omega", "and Omega Definitive Edition.", "", "Free and open source.", "", "RG SP port v1.0"},
+ {"DS Style", "Created by FrankieT19.", "Originally a Nintendo DS-inspired", "GBA frontend for EZ-FLASH Omega", "and Omega Definitive Edition.", "", "Free and open source.", "", "RG SP port v1.1"},
  {"Credits", "", "LCD grid: based on lcd1x", "Gigaherz and jdgleaver", "", "Pixel Transparency:", "Matt Akins (mattakins)", "", ""}};
  char number[8];snprintf(number,sizeof number,"%d/2",about_page+1);about_header(tr("About"),number);
  for(int i=0;i<9;i++){const char*s=tr(lines[about_page][i]);if(i==0)centered(0,24+i*14,W,s,0);else text(14,24+i*14,s,0,36);}

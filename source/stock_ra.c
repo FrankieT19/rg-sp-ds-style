@@ -34,12 +34,12 @@ static const char*choice_core(unsigned id,unsigned choice){
  }
  return "";
 }
-static int selection(const char*file,const char*rom,int card){
+static int selection(const char*file,const char*rom,int card,int subfolder){
  FILE*f=fopen(file,"rb");if(!f)return 0;char line[2048];int result=0,first=1;const char*name=strrchr(rom,'/');name=name?name+1:rom;
  while(fgets(line,sizeof line,f)){
   if(first){first=0;if(strncmp(line,"Version=1",9))break;}
   char*fields[5];fields[0]=line;int i;for(i=1;i<5;i++){char*q=strchr(fields[i-1],':');if(!q)break;*q=0;fields[i]=q+1;}
-  if(i==5&&!strcmp(fields[1],name)&&atoi(fields[2])==card&&atoi(fields[3])==1){result=atoi(fields[4]);break;}
+  if(i==5&&!strcmp(fields[1],name)&&atoi(fields[2])==card&&atoi(fields[3])==subfolder){result=atoi(fields[4]);break;}
  }
  fclose(f);return result>0?result:0;
 }
@@ -82,10 +82,16 @@ int main(int argc,char**argv){
  const unsigned char signature[]={0x03,0x68,0x0e,0x2b,0x08,0xd1,0x05,0x29};
  if(extra!=EOF||size<0x36d58||memcmp(bin,"\177ELF\1\1",6)||memcmp(bin+0x21cc8,signature,8)||strcmp(literal(0x13258),"/mnt/mod/ctrl/RA_launch.sh")){fprintf(stderr,"Unsupported stock menu ABI; use Stock OS. No guessed core or profile fallback.\n");return 20;}
  path(sd1,sizeof sd1,"/mnt/mmc/Roms/");path(sd2,sizeof sd2,"/mnt/sdcard/Roms/");int card=!strncmp(rom,sd1,strlen(sd1))?0:!strncmp(rom,sd2,strlen(sd2))?1:-1;if(card<0)return 20;
+ /* .setcore's fourth field is the stock browser context, NOT the RA flag
+  * used in favourites/history: 0 for Roms/<system>/<file>, 1 in a subfolder.
+  * Stock passes these values at VA 0x241b8/0x24252 and 0x24388 respectively. */
+ const char*relative=rom+strlen(card?sd2:sd1);const char*system_end=strchr(relative,'/');
+ if(!system_end||!system_end[1])return 20;int subfolder=strchr(system_end+1,'/')!=NULL;
  size_t entry=size;for(size_t p=0x36260;p+52<=size&&word(p)<256;p+=52)if(!strcasecmp(string(word(p+12)),sys)||!strcasecmp(string(word(p+4)),sys)){entry=p;break;}
  if(entry==size){fprintf(stderr,"System absent from installed stock table: %s\n",sys);return 20;}
  unsigned id=word(entry);const char*core=string(word(entry+24));int chosen=0;
- if(word(entry+44)){if(!path(file,sizeof file,literal(0x109b8)))return 20;chosen=selection(file,rom,card);if(chosen){core=choice_core(id,(unsigned)chosen);if(!*core){fprintf(stderr,"Invalid stock core choice; use Stock OS to reset it\n");return 20;}}}
+ if(word(entry+44)){if(!path(file,sizeof file,literal(0x109b8)))return 20;chosen=selection(file,rom,card,subfolder);if(chosen){core=choice_core(id,(unsigned)chosen);if(!*core){fprintf(stderr,"Invalid stock core choice; use Stock OS to reset it\n");return 20;}}}
+ printf("Stock card: TF%d\nStock subfolder context: %d\n",card+1,subfolder);
  printf("Route: installed stock RetroArch menu\nSystem: %s\nStock default: %s\nStock per-game choice: %d\nCore: %s\nROM: %s\n",sys,string(word(entry+24)),chosen,core,rom);
  /* Hand the chosen stock values to the existing stock wrapper. It owns RA
   * arguments, config, overrides, save paths and mod-specific per-ROM rules. */

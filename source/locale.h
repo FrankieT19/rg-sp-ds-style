@@ -162,7 +162,7 @@ static const char*locale_rows[][8]={
 {"GBA frontend for EZ-FLASH Omega","pour EZ-FLASH Omega","GBA-Oberfläche für EZ-FLASH Omega","para EZ-FLASH Omega","para EZ-FLASH Omega","per EZ-FLASH Omega","GBA-interface voor EZ-FLASH Omega","GBA frontend for EZ-FLASH Omega"},
 {"and Omega Definitive Edition.","et Omega Definitive Edition.","und Omega Definitive Edition.","y Omega Definitive Edition.","e Omega Definitive Edition.","e Omega Definitive Edition.","en Omega Definitive Edition.","and Omega Definitive Edition."},
 {"Free and open source.","Libre et open source.","Kostenlos und quelloffen.","Gratis y de código abierto.","Gratuito e de código aberto.","Gratuito e open source.","Gratis en open source.","Free and open source."},
-{"RG SP port v1.0","Portage RG SP v1.0","RG-SP-Portierung v1.0","Versión RG SP v1.0","Versão RG SP v1.0","Versione RG SP v1.0","RG SP-versie v1.0","RG SP port v1.0"},
+{"RG SP port v1.1","Portage RG SP v1.1","RG-SP-Portierung v1.1","Versión RG SP v1.1","Versão RG SP v1.1","Versione RG SP v1.1","RG SP-versie v1.1","RG SP port v1.1"},
 {"Credits","Crédits","Mitwirkende","Créditos","Créditos","Crediti","Credits","Credits"},
 {"LCD grid: based on lcd1x","Grille LCD basée sur lcd1x","LCD-Raster: basiert auf lcd1x","Rejilla LCD basada en lcd1x","Grelha LCD baseada em lcd1x","Griglia LCD basata su lcd1x","LCD-raster: gebaseerd op lcd1x","LCD grid: based on lcd1x"}
 };

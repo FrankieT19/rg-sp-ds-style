@@ -30,10 +30,10 @@ files.append((root/'README.txt', 'README.txt'))
 files.append((root/'LICENSE', 'Roms/APPS/DSStyle/LICENSE.txt'))
 dist = root/'dist'
 dist.mkdir(exist_ok=True)
-out = dist/'DS-Style-RG-SP-v1.0.zip'
+out = dist/'DS-Style-RG-SP-v1.1.zip'
 with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
     for p, name in files:
-        info = zipfile.ZipInfo(name, (2026, 9, 15, 0, 0, 0))
+        info = zipfile.ZipInfo(name, (2026, 9, 27, 0, 0, 0))
         info.create_system = 3
         info.external_attr = (0o100755 if '/bin/' in name or name.endswith('.sh') else 0o100644) << 16
         archive.writestr(info, p.read_bytes(), compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)

@@ -4,7 +4,7 @@ BASE=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd) || exit 1
 mkdir -p "$BASE/state" || exit 1
 LOG="$BASE/state/display-test.log"
 exec > "$LOG" 2>&1
-echo 'DS Style v1.0.2 timed display test'
+echo 'DS Style v1.1 timed display test'
 date
 if ! command -v timeout >/dev/null 2>&1; then
     echo 'No stock timeout utility found; refusing an unbounded display trial.'

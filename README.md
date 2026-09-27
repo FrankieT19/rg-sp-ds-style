@@ -8,7 +8,7 @@ DS Style uses your installed stock emulators, core choices, settings and saves.
 
 ## Download and install
 
-1. Download **DS-Style-RG-SP-v1.0.zip** from [Releases](https://github.com/FrankieT19/rg-sp-ds-style/releases/latest).
+1. Download **DS-Style-RG-SP-v1.1.zip** from [Releases](https://github.com/FrankieT19/rg-sp-ds-style/releases/latest).
 2. Extract the ZIP. Copy its **Roms** folder to your RG SP SD card's root, merging with your existing Roms folder.
 3. Optionally set your username by editing **Roms → APPS → DSStyle → username.txt**
 4. Safely eject the card, put it back in the RG SP and boot stock OS.
