@@ -137,7 +137,7 @@ static void wifi_icon(void){
 static void ui_titlebar(const char *title) {
     blit(bars[colour],0,0,240,19);
     text(3,3,username,0xffffff,11);
-    if(title&&*title){char short_title[64];strcopy(short_title,title,sizeof short_title);if(strlen(short_title)>15)short_title[15]=0;centered(73,3,94,short_title,0xffffff);}
+    if(title&&*title){char short_title[64];int n=Launcher_Utf8Take(title,15,sizeof short_title-1);memcpy(short_title,title,n);short_title[n]=0;centered(73,3,94,short_title,0xffffff);}
     time_t now=time(NULL);struct tm *tm=localtime(&now);char value[16]="00:00:00";
     if(tm){if(clock_12)snprintf(value,sizeof value,"%2d:%02d %s",tm->tm_hour%12?tm->tm_hour%12:12,tm->tm_min,tm->tm_hour>=12?"PM":"AM");else strftime(value,sizeof value,"%H:%M:%S",tm);}
     if(demo)strcopy(value,clock_12?"12:34 PM":"12:34:56",sizeof value);
