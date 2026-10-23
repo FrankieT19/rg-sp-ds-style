@@ -8,7 +8,7 @@ static const int quick_codes[]={0,304,305,307,306,310,308,309};
 static void extra_config(int save){
  char path[PATHLEN],data[128];statepath(path,"options.txt");
  if(save){snprintf(data,sizeof data,"%d %d %d %d %d\n",language,boot_destination,home_enabled,quick_key,apps_in_games);atomic_text(path,data);return;}
- FILE*f=fopen(path,"r");if(f){int a,b,c,d;if(fscanf(f,"%d %d %d %d",&a,&b,&c,&d)==4){language=a>=0&&a<8?a:0;boot_destination=b>=0&&b<5?b:0;home_enabled=c!=0;quick_key=d>=0&&d<8?d:0;int e;apps_in_games=0;if(fscanf(f,"%d",&e)==1)apps_in_games=e==1;}fclose(f);}
+ FILE*f=fopen(path,"r");if(f){int a,b,c,d;if(fscanf(f,"%d %d %d %d",&a,&b,&c,&d)==4){language=a>=0&&a<9?a:0;boot_destination=b>=0&&b<5?b:0;home_enabled=c!=0;quick_key=d>=0&&d<8?d:0;int e;apps_in_games=0;if(fscanf(f,"%d",&e)==1)apps_in_games=e==1;}fclose(f);}
 }
 static Entry*search_entries;static int search_count,search_choice,search_top,search_active,search_keyboard,key_cell;
 static char search_query[49];

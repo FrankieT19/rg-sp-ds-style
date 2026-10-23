@@ -30,10 +30,13 @@ int main(int argc,char**argv){assert(argc==2);preview=1;strcopy(base,argv[1],siz
 
  boot_destination=4;home_enabled=1;notice[0]=0;startup_destination(1,1);assert(page==0&&!notice[0]);home_enabled=0;startup_destination(1,0);assert(page==1);boot_destination=0;startup_destination(0,0);assert(page==1);home_enabled=1;boot_destination=4;boot_warning_at=ui_millis()-1;setting_help=-1;extra_tick();assert(setting_help==-2);extra_action(BACK);assert(setting_help==-1);puts("START overrides quick/last-game, disabled Home and delayed warning passed");
 
- for(int l=0;l<8;l++){language=l;assert(*tr("Settings"));for(int id=0;id<SET_BIND_FIRST;id++)assert(*tr(setting_explanation(id)));}language=0;puts("all setting help and eight language tables passed");
+ char split[3][32];assert(Launcher_SplitTitle("Добавлено в избранное",split)==2);assert(!strcmp(split[0],"Добавлено в")&&!strcmp(split[1],"избранное"));puts("UTF-8 notice wrapping keeps complete characters passed");
+
+ for(int l=0;l<9;l++){language=l;assert(*tr("Settings"));for(int id=0;id<SET_BIND_FIRST;id++)assert(*tr(setting_explanation(id)));}language=0;puts("all setting help and nine language tables passed");
 
 
  language=0;assert(!strcmp(tr("Colour"),"Colour"));language=7;assert(!strcmp(tr("Colour"),"Color"));assert(!strcmp(tr("Favourites"),"Favorites"));extra_config(1);language=0;extra_config(0);assert(language==7);language=0;
+ language=8;assert(!strcmp(tr("Colour"),"Цвет"));assert(!strcmp(tr("Settings"),"Настройки"));assert(!strcmp(tr("Pixel Transparency:"),"Прозрачность пикселей:"));language=0;
  page=2;settings_category=-1;setting_help=-1;extra_action(VIEW);assert(setting_help==-1);
  char sys0[PATHLEN],pk0[PATHLEN],pk1[PATHLEN];join(sys0,PATHLEN,roots[0],"GB");MKDIR(sys0);join(pk0,PATHLEN,sys0,"Pokemon Blue.gb");touch(pk0);join(pk1,PATHLEN,sub,"Pokemon Emerald.gba");touch(pk1);
  browse(roots[0]);int original=count;search_begin();assert(search_global);strcpy(search_query,"pokemon");search_filter();assert(count==2&&!entries[0].dir&&!entries[1].dir);assert(strcmp(entries[0].path,entries[1].path));search_end(1);assert(count==original&&systems_view());

@@ -61,6 +61,45 @@ static void Launcher_CleanTitle(const TCHAR *src, char *dst, u32 dst_size)
 	}
 }
 
+/* Return how many bytes fit without splitting a UTF-8 sequence. */
+static int Launcher_Utf8Take(const char *s, int max_chars, int max_bytes)
+{
+	int bytes = 0;
+	int chars = 0;
+
+	while(s[bytes] && chars < max_chars)
+	{
+		unsigned char c = (unsigned char)s[bytes];
+		int size = 1;
+		int k;
+
+		if((c & 0xE0) == 0xC0)
+			size = 2;
+		else if((c & 0xF0) == 0xE0)
+			size = 3;
+		else if((c & 0xF8) == 0xF0)
+			size = 4;
+
+		if(bytes + size > max_bytes)
+			break;
+		if(size > 1)
+		{
+			for(k = 1; k < size; k++)
+			{
+				if(((unsigned char)s[bytes + k] & 0xC0) != 0x80)
+					break;
+			}
+			if(k < size)
+				break;
+		}
+
+		bytes += size;
+		chars++;
+	}
+
+	return bytes;
+}
+
 static int Launcher_SplitTitle(const char *title, char lines[3][32])
 {
 	int title_len;
@@ -73,10 +112,13 @@ static int Launcher_SplitTitle(const char *title, char lines[3][32])
 
 	while(pos < title_len && line_count < 3)
 	{
-		int remaining = title_len - pos;
 		int max_take = (line_count < 2) ? 20 : 24;
-		int take = (remaining > max_take) ? max_take : remaining;
-		int split = pos + take;
+		int take = Launcher_Utf8Take(title + pos, max_take, 31);
+		int split;
+
+		if(take <= 0)
+			break;
+		split = pos + take;
 
 		if(split < title_len)
 		{
@@ -109,9 +151,7 @@ static int Launcher_SplitTitle(const char *title, char lines[3][32])
 	if(pos < title_len && line_count > 0)
 	{
 		int last = line_count - 1;
-		int len = strlen(lines[last]);
-		if(len > 21)
-			len = 21;
+		int len = Launcher_Utf8Take(lines[last], 21, 28);
 		while(len > 0 && lines[last][len - 1] == ' ')
 			len--;
 		lines[last][len] = '\0';
@@ -145,9 +185,12 @@ static int Launcher_SplitStartTitle(const char *title, char lines[3][32])
     title_len = strlen(title);
     while(pos < title_len && line_count < 3)
     {
-        int remaining = title_len - pos;
-        int take = (remaining > max_take) ? max_take : remaining;
-        int split = pos + take;
+        int take = Launcher_Utf8Take(title + pos, max_take, 31);
+        int split;
+
+        if(take <= 0)
+            break;
+        split = pos + take;
 
         if(split < title_len)
         {
@@ -180,9 +223,7 @@ static int Launcher_SplitStartTitle(const char *title, char lines[3][32])
     if(pos < title_len && line_count > 0)
     {
         int last = line_count - 1;
-        int len = strlen(lines[last]);
-        if(len > 15)
-            len = 15;
+        int len = Launcher_Utf8Take(lines[last], 15, 28);
         while(len > 0 && lines[last][len - 1] == ' ')
             len--;
         lines[last][len] = '\0';

@@ -558,7 +558,7 @@ static void action_impl(int k) {
             case SET_SOURCE:home_favourites=!home_favourites;home_recent=0;home_state(1);break;
             case SET_QUICK:quick_key=(quick_key+8+delta)%8;extra_config(1);break;
             case SET_APPS_GAMES:apps_in_games=!apps_in_games;extra_config(1);break;
-            case SET_LANGUAGE:language=(language+8+delta)%8;extra_config(1);break;
+            case SET_LANGUAGE:language=(language+9+delta)%9;extra_config(1);break;
             case SET_CONTROLLER:controller_selected=(controller_selected+controller_count+delta)%controller_count;break;
             case SET_RESET_CONTROLS:controller_defaults(controller_selected);controller_save();message("Controls reset");break;
             case SET_CLOCK:clock_12=!clock_12;break;case SET_NAMES:full_system_names=!full_system_names;break;case SET_GBAART:gba_art=!gba_art;break;case SET_HFIT:horizontal_fit=!horizontal_fit;break;
