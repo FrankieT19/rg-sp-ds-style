@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Added Russian as the ninth interface language.
+- Added Cyrillic glyphs to the bitmap font. The existing Latin glyphs are unchanged.
+
 ## v1.1
 
 - Fixed stock RetroArch core selections for games stored directly in a system folder. The `.setcore` subfolder field was incorrectly treated as a RetroArch flag, so these games could launch with the default core. Core choices now use the matching card and folder context on both TF1 and TF2, for all systems.
